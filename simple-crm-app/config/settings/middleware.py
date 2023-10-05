@@ -12,7 +12,7 @@ class HtmxResponseMiddleware(object):
     
 
     def process_template_response(self, request, response):
-        """This special method is a middleware hook, which is called every 
+        """This special method is a middleware hook, which is called every  
         time a view is finished executing."""
         app_name = resolve(request.path).app_name
         if app_name in settings.HTMX_APPS:

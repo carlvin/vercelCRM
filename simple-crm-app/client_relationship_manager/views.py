@@ -1,4 +1,5 @@
 from typing import Any, Dict
+from django.forms.models import BaseModelForm
 from django.views import View
 from django.db.models.query import QuerySet
 from django.http import HttpResponse
@@ -10,7 +11,8 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import (
     TemplateView,ListView,CreateView,DeleteView,DetailView,UpdateView
 )
-from client_relationship_manager.forms import CreateClientForm, CustomUserCreationForm, UpdateClientForm
+from client_relationship_manager.forms import (
+    CreateClientForm, CustomUserCreationForm,UpdateClientForm)
 
 from client_relationship_manager.models import Client, Device
 
@@ -62,10 +64,26 @@ class SearchResultView(LoginRequiredMixin,ListView):
 class CreateClientView(LoginRequiredMixin,CreateView):
     template_name ="create_client.html" 
     form_class = CreateClientForm
+    
+    def form_valid(self, form: BaseModelForm) -> HttpResponse:
+        form = form.save(commit=False)
+        form.organisation = self.request.user.userprofile
+        form.save()
+        return super(CreateClientView,self).form_valid(form)
 
     def get_success_url(self) -> str:
         messages.success(self.request,"Client Created")
         return reverse_lazy("crm:index")
+    
+    
+# class CreateNoteView(LoginRequiredMixin,CreateView):
+#     template_name = "create_note.html"
+#     form_class = CreateNoteForm
+
+#     def get_success_url(self) -> str:
+#         messages.success(self.request,"Note Created")
+#         return reverse_lazy("crm:index")
+    
 
 class DetailClientView(LoginRequiredMixin,DetailView):
     template_name = "detail_client.html"
@@ -77,7 +95,8 @@ class DetailClientView(LoginRequiredMixin,DetailView):
 
 class UpdateClientView(LoginRequiredMixin,UpdateView):
     template_name = "update_client.html"
-    form_class = UpdateClientForm 
+    #form_class = UpdateClientForm 
+    form_class = CreateClientForm
 
     def get_queryset(self) -> QuerySet[Any]:
         queryset = Client.objects.all()

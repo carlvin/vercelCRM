@@ -92,5 +92,5 @@ USER app
 ENTRYPOINT [ "/home/app/entrypoint.sh" ]
 
 LABEL maintainer="Okumu Calvin"
-LABEL version="0.0"
+LABEL version="0.1"
 LABEL description="A simple CRM application."

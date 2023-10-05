@@ -4,7 +4,7 @@ import dotenv
 
 dotenv.load_dotenv()
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent   
 
 
 # Custom variable to read enviroment variables in development
@@ -41,13 +41,15 @@ INSTALLED_APPS = [
     
     # Third party apps
     'django_htmx',
-    'django_htmx_refresh',
+    #'django_htmx_refresh',
     'crispy_forms',
     'crispy_tailwind',
+    #'ckeditor',
 
     # Local apps
     'client_relationship_manager',
     'agents',
+    'inventory',
 
     
 ]
@@ -56,6 +58,7 @@ INSTALLED_APPS = [
 HTMX_APPS = [
     'crm',
     'agents',
+    'inventory'
 ]
 
 MIDDLEWARE = [
@@ -69,7 +72,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_htmx.middleware.HtmxMiddleware',
     # 'django_htmx_refresh.middleware.HtmxResponseMiddleware',
-    'middleware.py.HtmxResponseMiddleware',
+    'middleware.HtmxResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -97,6 +100,22 @@ TEMPLATES = [
 
 #modified to the new config folder
 WSGI_APPLICATION = 'config.wsgi.application'
+
+#ckeditor configuration
+CKEDITOR_CONFIGS = {
+    'awesome_ckeditor': {
+        'toolbar': 'Basic',
+    },
+     'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Link', 'Unlink'],
+            ['RemoveFormat', 'Source']
+        ]
+    }
+}
 
 #logging
 

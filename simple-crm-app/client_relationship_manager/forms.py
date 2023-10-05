@@ -2,6 +2,7 @@ from django import forms
 from .models import Client, Device
 from django.contrib.auth.forms import UserCreationForm,UsernameField
 from django.contrib.auth import get_user_model
+# from ckeditor.widgets import CKEditorWidget
 
 #get our own custom user
 User = get_user_model()
@@ -12,14 +13,28 @@ class CreateClientForm(forms.ModelForm):
         verbose_name = 'client'
         verbose_name_plural = 'clients'
 
-        fields = '__all__'
+        fields = ("name","phone","email","address")
         widgets = {
             'name': forms.TextInput(attrs={'class': 'form-input'}),
             'phone': forms.TextInput(attrs={'class': 'form-input'}),
             'email': forms.EmailInput(attrs={'class': 'form-input'}),
             "address": forms.TextInput(attrs={'class': 'form-input'}),
+            # 'address': CKEditorWidget(),
         }
 
+# class CreateNoteForm(forms.ModelForm):
+#     class Meta:
+#        model=Unotes
+#        verbose_name='note'
+#        verbose_name_plural='notes'
+
+#        fields=(
+#            'name','description'
+#        )
+#        widgets = {
+#            'name': forms.TextInput(attrs={'class': 'form-input'}),
+#            'description':CKEditorWidget(),
+#        }
 
 class UpdateClientForm(forms.ModelForm):
     class Meta:
@@ -27,7 +42,7 @@ class UpdateClientForm(forms.ModelForm):
         verbose_name = 'client'
         verbose_name_plural = 'clients'
 
-        fields = '__all__'
+        fields = ("name","phone","email","address")
         widgets = {
             'name': forms.TextInput(attrs={'class': 'form-input'}),
             'phone': forms.TextInput(attrs={'class': 'form-input'}),

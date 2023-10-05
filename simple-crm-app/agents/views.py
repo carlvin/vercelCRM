@@ -47,11 +47,13 @@ class AgentCreateView(OrganisorAndLoginRequiredMixin,generic.CreateView):
         user.is_organisor = False
         user.set_password(f'{random.randint(100,2000000)}')
         user.save()
-        # create actual agent 
+        # create the actual agent 
         agent = Agent.objects.create(
             user = user,
-            organisation = self.request.user.userprofile #get logged on user userprofile
+            organisation = self.request.user.userprofile, #get logged on user userprofile
+            created_by = self.request.user
         )
+        print(agent.date_created)
         # send an email to the new agent 
         send_mail(
             subject = "You are invited to be an Agent",
@@ -78,8 +80,7 @@ class AgentDetailView(OrganisorAndLoginRequiredMixin,generic.DetailView):
 class AgentUpdateView(OrganisorAndLoginRequiredMixin,generic.UpdateView):
     template_name = "agent_update.html"
     form_class = AgentModelForm  
-    # context_object_name = "agent"
-
+    context_object_name = "agent"
     
     def get_queryset(self) -> QuerySet[Any]:
        user = self.request.user
