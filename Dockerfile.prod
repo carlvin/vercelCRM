@@ -58,8 +58,8 @@ RUN pip install --no-cache /wheels/*
 # Create Python virtual environment, install packages, collect wheels, and add runtime dependencies
 RUN python -m venv /venv \
     && /venv/bin/pip install --upgrade pip \
-    && /venv/bin/pip install --no-cache-dir --no-deps -r /home/app/requirements.freeze \
-    && /venv/bin/pip wheel --no-cache-dir --no-deps --wheel-dir /home/app/wheels -r /home/app/requirements.freeze
+    && /venv/bin/pip install --no-cache-dir --no-deps -r /home/app/requirements.freeze 
+    # && /venv/bin/pip wheel --no-cache-dir --no-deps --wheel-dir /home/app/wheels -r /home/app/requirements.freeze
 
 RUN apk del build-base
 
@@ -93,4 +93,4 @@ ENTRYPOINT [ "/home/app/entrypoint.sh" ]
 
 LABEL maintainer="Okumu Calvin"
 LABEL version="0.1"
-LABEL description="A simple CRM application."
+LABEL description="Multi Organisational CRM software."
