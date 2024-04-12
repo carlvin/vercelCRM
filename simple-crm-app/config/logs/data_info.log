@@ -4433,3 +4433,1396 @@ INFO 2023-09-28 07:43:37,259 django.server Thread-5 (process_request_thread) 140
 INFO 2023-09-28 07:45:38,827 django.server Thread-5 (process_request_thread) 140437310404288 basehttp basehttp.py 212 django.server log_message 7106 "GET /notes/ HTTP/1.1" 200 17912
 INFO 2023-09-28 07:47:02,574 django.server Thread-5 (process_request_thread) 140437310404288 basehttp basehttp.py 212 django.server log_message 7106 "GET /notes/ HTTP/1.1" 200 18018
 INFO 2023-09-28 07:48:42,878 django.server Thread-5 (process_request_thread) 140437310404288 basehttp basehttp.py 212 django.server log_message 7106 "GET /notes/ HTTP/1.1" 200 18063
+INFO 2023-12-28 12:53:21,340 django.utils.autoreload MainThread 140412473356288 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 8680 Watching for file changes with StatReloader
+INFO 2023-12-28 12:53:25,194 django.server Thread-1 (process_request_thread) 140412345906752 basehttp basehttp.py 212 django.server log_message 8680 "GET / HTTP/1.1" 302 0
+INFO 2023-12-28 12:53:25,247 django.server Thread-1 (process_request_thread) 140412345906752 basehttp basehttp.py 212 django.server log_message 8680 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2023-12-28 12:53:25,301 django.server Thread-2 (process_request_thread) 140412337514048 basehttp basehttp.py 212 django.server log_message 8680 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2023-12-28 12:53:37,664 django.request Thread-2 (process_request_thread) 140412337514048 log log.py 241 django.request log_response 8680 Not Found: /favicon.ico
+WARNING 2023-12-28 12:53:37,665 django.server Thread-2 (process_request_thread) 140412337514048 basehttp basehttp.py 212 django.server log_message 8680 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2023-12-28 12:55:21,625 django.utils.autoreload MainThread 139774595751936 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9191 Watching for file changes with StatReloader
+INFO 2023-12-28 12:55:26,169 django.server Thread-1 (process_request_thread) 139774475105856 basehttp basehttp.py 212 django.server log_message 9191 "GET / HTTP/1.1" 302 0
+INFO 2023-12-28 12:55:26,239 django.server Thread-1 (process_request_thread) 139774475105856 basehttp basehttp.py 212 django.server log_message 9191 "GET /login/?next=/ HTTP/1.1" 200 17183
+INFO 2023-12-28 13:09:31,762 django.utils.autoreload MainThread 139774595751936 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9191 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-28 13:09:32,005 django.utils.autoreload MainThread 140025202413568 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 11555 Watching for file changes with StatReloader
+INFO 2023-12-28 13:09:34,138 django.utils.autoreload MainThread 140025202413568 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 11555 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-28 13:09:34,350 django.utils.autoreload MainThread 140330264715264 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 11603 Watching for file changes with StatReloader
+INFO 2023-12-29 05:58:41,800 django.utils.autoreload MainThread 140164924997632 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 1871 Watching for file changes with StatReloader
+INFO 2023-12-29 06:15:21,501 django.utils.autoreload MainThread 139908312346624 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 5318 Watching for file changes with StatReloader
+INFO 2023-12-29 06:27:18,050 django.utils.autoreload MainThread 139908312346624 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 5318 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:27:18,472 django.utils.autoreload MainThread 140355559903232 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 7519 Watching for file changes with StatReloader
+INFO 2023-12-29 06:27:26,527 django.utils.autoreload MainThread 140406819778560 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 7611 Watching for file changes with StatReloader
+INFO 2023-12-29 06:28:13,108 django.utils.autoreload MainThread 139784903385088 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 7869 Watching for file changes with StatReloader
+INFO 2023-12-29 06:32:08,325 django.utils.autoreload MainThread 139928128368640 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 8684 Watching for file changes with StatReloader
+INFO 2023-12-29 06:33:07,312 django.utils.autoreload MainThread 140360020832256 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9016 Watching for file changes with StatReloader
+INFO 2023-12-29 06:33:51,670 django.utils.autoreload MainThread 140360020832256 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9016 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:33:51,932 django.utils.autoreload MainThread 140450141163520 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9230 Watching for file changes with StatReloader
+INFO 2023-12-29 06:33:58,076 django.utils.autoreload MainThread 140450141163520 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9230 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:33:58,349 django.utils.autoreload MainThread 139948543332352 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9296 Watching for file changes with StatReloader
+INFO 2023-12-29 06:34:03,303 django.utils.autoreload MainThread 139750583205888 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9339 Watching for file changes with StatReloader
+INFO 2023-12-29 06:34:26,397 django.utils.autoreload MainThread 140186416381952 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9503 Watching for file changes with StatReloader
+INFO 2023-12-29 06:35:53,985 django.utils.autoreload MainThread 140186416381952 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9503 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:35:54,343 django.utils.autoreload MainThread 140553624322048 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9842 Watching for file changes with StatReloader
+INFO 2023-12-29 06:35:59,500 django.utils.autoreload MainThread 140553624322048 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9842 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:35:59,752 django.utils.autoreload MainThread 139753328099328 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9892 Watching for file changes with StatReloader
+INFO 2023-12-29 06:36:08,947 django.utils.autoreload MainThread 139753328099328 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9892 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:36:09,246 django.utils.autoreload MainThread 140179512999936 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9979 Watching for file changes with StatReloader
+INFO 2023-12-29 06:36:16,409 django.utils.autoreload MainThread 140179512999936 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9979 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:36:16,714 django.utils.autoreload MainThread 139820033150976 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 10056 Watching for file changes with StatReloader
+INFO 2023-12-29 06:36:56,059 django.utils.autoreload MainThread 139820033150976 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 10056 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:36:56,405 django.utils.autoreload MainThread 140282524766208 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 10212 Watching for file changes with StatReloader
+INFO 2023-12-29 06:37:35,759 django.utils.autoreload MainThread 140282524766208 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 10212 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:37:36,027 django.utils.autoreload MainThread 140225878740992 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 10387 Watching for file changes with StatReloader
+INFO 2023-12-29 06:38:21,382 django.utils.autoreload MainThread 140225878740992 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 10387 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 06:38:21,655 django.utils.autoreload MainThread 140460064706560 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 10592 Watching for file changes with StatReloader
+INFO 2023-12-29 07:52:43,175 django.utils.autoreload MainThread 140383035121664 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 24002 Watching for file changes with StatReloader
+INFO 2023-12-29 07:52:56,680 django.server Thread-1 (process_request_thread) 140382981764672 basehttp basehttp.py 212 django.server log_message 24002 "GET / HTTP/1.1" 302 0
+INFO 2023-12-29 07:52:56,839 django.server Thread-1 (process_request_thread) 140382981764672 basehttp basehttp.py 212 django.server log_message 24002 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2023-12-29 07:53:08,866 django.request Thread-1 (process_request_thread) 140382981764672 log log.py 241 django.request log_response 24002 Not Found: /favicon.ico
+WARNING 2023-12-29 07:53:08,868 django.server Thread-1 (process_request_thread) 140382981764672 basehttp basehttp.py 212 django.server log_message 24002 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2023-12-29 07:53:15,659 django.server Thread-1 (process_request_thread) 140382981764672 basehttp basehttp.py 212 django.server log_message 24002 "GET /signup/ HTTP/1.1" 200 16055
+INFO 2023-12-29 07:54:13,211 django.server Thread-1 (process_request_thread) 140382981764672 basehttp basehttp.py 212 django.server log_message 24002 "POST /signup/ HTTP/1.1" 302 0
+INFO 2023-12-29 07:54:13,221 django.server Thread-1 (process_request_thread) 140382981764672 basehttp basehttp.py 212 django.server log_message 24002 "GET /login/ HTTP/1.1" 200 17183
+INFO 2023-12-29 07:54:45,017 django.utils.autoreload MainThread 140383035121664 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 24002 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 07:54:45,269 django.utils.autoreload MainThread 140039794888704 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 24581 Watching for file changes with StatReloader
+INFO 2023-12-29 07:54:59,276 django.server Thread-1 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /login/ HTTP/1.1" 200 17183
+INFO 2023-12-29 07:55:03,823 django.server Thread-1 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin HTTP/1.1" 301 0
+INFO 2023-12-29 07:55:03,836 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-12-29 07:55:03,875 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4276
+INFO 2023-12-29 07:55:03,932 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2023-12-29 07:55:03,938 django.server Thread-3 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2023-12-29 07:55:03,941 django.server Thread-5 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-12-29 07:55:03,941 django.server Thread-7 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-12-29 07:55:03,942 django.server Thread-4 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2023-12-29 07:55:03,943 django.server Thread-6 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2023-12-29 07:55:03,943 django.server Thread-3 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-12-29 07:55:03,987 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-12-29 07:55:08,143 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-12-29 07:55:08,180 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/ HTTP/1.1" 200 8526
+INFO 2023-12-29 07:55:08,233 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:08,233 django.server Thread-6 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:08,234 django.server Thread-4 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:08,234 django.server Thread-7 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:08,236 django.server Thread-6 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:08,237 django.server Thread-3 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-12-29 07:55:08,238 django.server Thread-7 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:08,277 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-12-29 07:55:08,277 django.server Thread-3 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-12-29 07:55:11,767 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 10787
+INFO 2023-12-29 07:55:11,779 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:11,780 django.server Thread-4 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:11,784 django.server Thread-7 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:11,787 django.server Thread-4 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:11,788 django.server Thread-6 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2023-12-29 07:55:11,792 django.server Thread-7 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-12-29 07:55:11,792 django.server Thread-6 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2023-12-29 07:55:11,794 django.server Thread-5 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2023-12-29 07:55:11,798 django.server Thread-5 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2023-12-29 07:55:11,807 django.server Thread-3 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 07:55:11,811 django.server Thread-3 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2023-12-29 07:55:11,823 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-12-29 07:55:11,836 django.server Thread-4 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-12-29 07:55:11,845 django.server Thread-7 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2023-12-29 07:55:11,896 django.server Thread-7 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:11,897 django.server Thread-4 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 07:55:11,904 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-12-29 07:55:11,907 django.server Thread-3 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+WARNING 2023-12-29 07:55:41,557 django.security.csrf Thread-2 (process_request_thread) 140039733139008 log log.py 241 django.security.csrf log_response 24581 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-12-29 07:55:41,558 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "POST /login/ HTTP/1.1" 403 2517
+WARNING 2023-12-29 07:56:02,525 django.security.csrf Thread-2 (process_request_thread) 140039733139008 log log.py 241 django.security.csrf log_response 24581 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-12-29 07:56:02,525 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "POST /login/ HTTP/1.1" 403 2517
+WARNING 2023-12-29 07:57:49,705 django.security.csrf Thread-2 (process_request_thread) 140039733139008 log log.py 241 django.security.csrf log_response 24581 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-12-29 07:57:49,706 django.server Thread-2 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "POST /login/ HTTP/1.1" 403 2517
+INFO 2023-12-29 07:58:46,221 django.server Thread-8 (process_request_thread) 140039346447936 basehttp basehttp.py 212 django.server log_message 24581 "GET / HTTP/1.1" 302 0
+INFO 2023-12-29 07:58:46,233 django.server Thread-8 (process_request_thread) 140039346447936 basehttp basehttp.py 212 django.server log_message 24581 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2023-12-29 07:58:46,246 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2023-12-29 07:58:47,434 django.request Thread-9 (process_request_thread) 140039338055232 log log.py 241 django.request log_response 24581 Not Found: /favicon.ico
+WARNING 2023-12-29 07:58:47,435 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2023-12-29 07:59:14,202 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "POST /login/?next=/ HTTP/1.1" 200 17614
+INFO 2023-12-29 07:59:24,419 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "POST /login/?next=/ HTTP/1.1" 302 0
+INFO 2023-12-29 07:59:24,443 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "GET / HTTP/1.1" 200 30062
+INFO 2023-12-29 07:59:50,772 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "GET /client/create/ HTTP/1.1" 200 4757
+INFO 2023-12-29 08:00:31,063 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "POST /client/create/ HTTP/1.1" 302 0
+INFO 2023-12-29 08:00:31,081 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "GET / HTTP/1.1" 200 18334
+INFO 2023-12-29 08:00:37,962 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "GET /agents/ HTTP/1.1" 200 10460
+INFO 2023-12-29 08:00:40,370 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "GET /agents/create_agent/ HTTP/1.1" 200 5595
+ERROR 2023-12-29 08:01:11,608 django.request Thread-9 (process_request_thread) 140039338055232 log log.py 241 django.request log_response 24581 Internal Server Error: /agents/create_agent/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/agents/mixins.py", line 10, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 182, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/agents/views.py", line 58, in form_valid
+    send_mail(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 85, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+ERROR 2023-12-29 08:01:11,610 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "POST /agents/create_agent/ HTTP/1.1" 500 137918
+INFO 2023-12-29 08:01:29,899 django.server Thread-9 (process_request_thread) 140039338055232 basehttp basehttp.py 212 django.server log_message 24581 "POST /agents/create_agent/ HTTP/1.1" 200 5813
+INFO 2023-12-29 08:04:26,685 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11063
+INFO 2023-12-29 08:04:26,694 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,695 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,703 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,703 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,713 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,713 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,714 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,717 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,721 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,739 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 08:04:26,744 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,744 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,765 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,768 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,816 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,817 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:26,831 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,802 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/agent/ HTTP/1.1" 200 10520
+INFO 2023-12-29 08:04:32,810 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,818 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,818 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,819 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,822 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,823 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,825 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,826 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,829 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,841 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 08:04:32,844 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,864 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,875 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,877 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,927 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,928 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:32,930 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,281 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/agent/1/change/ HTTP/1.1" 200 14069
+INFO 2023-12-29 08:04:36,296 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,296 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,297 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,297 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,299 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/forms.css HTTP/1.1" 200 9048
+INFO 2023-12-29 08:04:36,302 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,304 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,309 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,310 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,327 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 08:04:36,333 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,334 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2023-12-29 08:04:36,355 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,356 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,357 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,366 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-12-29 08:04:36,404 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,411 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,412 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,412 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:36,415 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-12-29 08:04:36,415 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-12-29 08:04:36,453 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2023-12-29 08:04:55,058 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/client/ HTTP/1.1" 200 10500
+INFO 2023-12-29 08:04:55,069 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,071 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,075 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,076 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,077 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,079 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,081 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,082 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,085 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,099 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 08:04:55,101 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,114 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,125 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,133 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,175 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,184 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:55,189 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,655 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/device/ HTTP/1.1" 200 9219
+INFO 2023-12-29 08:04:58,667 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,668 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,671 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,674 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,674 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,675 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,679 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,680 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,682 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,699 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 08:04:58,705 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,726 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,726 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,727 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,775 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,786 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:58,789 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,870 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/userprofile/ HTTP/1.1" 200 11154
+INFO 2023-12-29 08:04:59,882 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,887 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,887 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,887 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,887 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,891 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,893 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,893 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,895 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,910 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 08:04:59,914 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,925 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,944 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,946 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,995 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:04:59,996 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:00,000 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,788 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11063
+INFO 2023-12-29 08:05:02,801 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,801 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,803 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,806 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,808 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,810 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,812 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,814 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,815 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,828 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 08:05:02,832 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,844 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,856 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,864 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,904 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,914 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:02,918 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,673 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/client_relationship_manager/user/3/change/ HTTP/1.1" 200 24571
+INFO 2023-12-29 08:05:04,682 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,682 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,687 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,691 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,692 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2023-12-29 08:05:04,694 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-12-29 08:05:04,695 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,698 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,699 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,720 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 08:05:04,743 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,744 django.server Thread-13 (process_request_thread) 140039705863744 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,755 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,756 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,757 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,764 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,794 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,814 django.server Thread-15 (process_request_thread) 140039741531712 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,846 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,851 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,853 django.server Thread-11 (process_request_thread) 140039722649152 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,853 django.server Thread-16 (process_request_thread) 140039714256448 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-12-29 08:05:04,912 django.server Thread-14 (process_request_thread) 140039733139008 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-12-29 08:05:04,912 django.server Thread-12 (process_request_thread) 140039354840640 basehttp basehttp.py 212 django.server log_message 24581 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-12-29 19:36:33,647 django.utils.autoreload MainThread 140482617196544 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 2852 Watching for file changes with StatReloader
+INFO 2023-12-29 19:38:02,010 django.server Thread-1 (process_request_thread) 140482563839552 basehttp basehttp.py 212 django.server log_message 2852 "GET / HTTP/1.1" 302 0
+INFO 2023-12-29 19:38:02,032 django.server Thread-1 (process_request_thread) 140482563839552 basehttp basehttp.py 212 django.server log_message 2852 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2023-12-29 19:38:02,075 django.server Thread-2 (process_request_thread) 140482563839552 basehttp basehttp.py 212 django.server log_message 2852 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2023-12-29 19:38:08,270 django.request Thread-2 (process_request_thread) 140482563839552 log log.py 241 django.request log_response 2852 Not Found: /favicon.ico
+WARNING 2023-12-29 19:38:08,271 django.server Thread-2 (process_request_thread) 140482563839552 basehttp basehttp.py 212 django.server log_message 2852 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2023-12-29 19:53:48,071 django.utils.autoreload MainThread 140482617196544 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 2852 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 19:53:48,298 django.utils.autoreload MainThread 140148468834304 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 6147 Watching for file changes with StatReloader
+INFO 2023-12-29 19:59:20,810 django.server Thread-1 (process_request_thread) 140148415477312 basehttp basehttp.py 212 django.server log_message 6147 "GET /login/?next=/ HTTP/1.1" 200 17183
+INFO 2023-12-29 19:59:56,390 django.server Thread-1 (process_request_thread) 140148415477312 basehttp basehttp.py 212 django.server log_message 6147 "POST /login/?next=/ HTTP/1.1" 302 0
+INFO 2023-12-29 19:59:56,420 django.server Thread-1 (process_request_thread) 140148415477312 basehttp basehttp.py 212 django.server log_message 6147 "GET / HTTP/1.1" 200 31583
+INFO 2023-12-29 20:00:48,375 django.server Thread-1 (process_request_thread) 140148415477312 basehttp basehttp.py 212 django.server log_message 6147 "GET /1/detail/ HTTP/1.1" 200 6602
+INFO 2023-12-29 20:00:50,632 django.server Thread-1 (process_request_thread) 140148415477312 basehttp basehttp.py 212 django.server log_message 6147 "GET /1/update/ HTTP/1.1" 200 5625
+INFO 2023-12-29 20:01:25,528 django.server Thread-1 (process_request_thread) 140148415477312 basehttp basehttp.py 212 django.server log_message 6147 "GET /1/update/?name=calvin&phone=123&email=calvinokumu%40gmail.com&address=123deh HTTP/1.1" 200 18962
+INFO 2023-12-29 20:17:52,198 django.utils.autoreload MainThread 140148468834304 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 6147 /home/xorb/Projects/docker_django/simple-crm-app/config/settings/base.py changed, reloading.
+INFO 2023-12-29 20:17:52,436 django.utils.autoreload MainThread 140381324820480 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 10692 Watching for file changes with StatReloader
+INFO 2023-12-29 20:18:10,976 django.server Thread-1 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/update/?name=calvin&phone=123&email=calvinokumu%40gmail.com&address=123dew HTTP/1.1" 200 18962
+INFO 2023-12-29 20:18:28,813 django.server Thread-1 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/detail/ HTTP/1.1" 200 19939
+INFO 2023-12-29 20:18:31,467 django.server Thread-1 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/update/ HTTP/1.1" 200 5625
+INFO 2023-12-29 20:18:38,171 django.server Thread-1 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/update/?name=calvin&phone=123&email=calvinokumu%40gmail.com&address=123dewq HTTP/1.1" 200 18962
+WARNING 2023-12-29 20:47:49,560 django.request Thread-3 (process_request_thread) 140381204248128 log log.py 241 django.request log_response 10692 Not Found: /api
+WARNING 2023-12-29 20:47:49,560 django.server Thread-3 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /api HTTP/1.1" 404 5034
+WARNING 2023-12-29 20:48:04,330 django.request Thread-3 (process_request_thread) 140381204248128 log log.py 241 django.request log_response 10692 Not Found: /api/
+WARNING 2023-12-29 20:48:04,330 django.server Thread-3 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /api/ HTTP/1.1" 404 5037
+INFO 2023-12-29 21:00:12,479 django.server Thread-5 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 21:00:16,891 django.server Thread-5 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 21:00:29,096 django.server Thread-5 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 18246
+WARNING 2023-12-29 21:00:46,864 django.request Thread-5 (process_request_thread) 140381195855424 log log.py 241 django.request log_response 10692 Not Found: /agent
+WARNING 2023-12-29 21:00:46,865 django.server Thread-5 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /agent HTTP/1.1" 404 5040
+INFO 2023-12-29 21:00:53,346 django.server Thread-5 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents HTTP/1.1" 301 0
+INFO 2023-12-29 21:00:53,377 django.server Thread-6 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/ HTTP/1.1" 200 26088
+INFO 2023-12-29 21:01:10,907 django.server Thread-6 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/create_agent/ HTTP/1.1" 200 5595
+INFO 2023-12-29 21:01:43,689 django.server Thread-6 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "POST /agents/create_agent/ HTTP/1.1" 302 0
+INFO 2023-12-29 21:01:43,710 django.server Thread-6 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/ HTTP/1.1" 200 14032
+WARNING 2023-12-29 21:02:24,064 django.request Thread-6 (process_request_thread) 140381204248128 base base.py 146 django.request http_method_not_allowed 10692 Method Not Allowed (GET): /logout/
+WARNING 2023-12-29 21:02:24,064 django.request Thread-6 (process_request_thread) 140381204248128 log log.py 241 django.request log_response 10692 Method Not Allowed: /logout/
+WARNING 2023-12-29 21:02:24,065 django.server Thread-6 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /logout/ HTTP/1.1" 405 0
+WARNING 2023-12-29 21:02:30,863 django.request Thread-6 (process_request_thread) 140381204248128 base base.py 146 django.request http_method_not_allowed 10692 Method Not Allowed (GET): /logout/
+WARNING 2023-12-29 21:02:30,863 django.request Thread-6 (process_request_thread) 140381204248128 log log.py 241 django.request log_response 10692 Method Not Allowed: /logout/
+WARNING 2023-12-29 21:02:30,863 django.server Thread-6 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /logout/ HTTP/1.1" 405 0
+INFO 2023-12-29 21:03:34,139 django.server Thread-6 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /login HTTP/1.1" 301 0
+INFO 2023-12-29 21:03:34,172 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /login/ HTTP/1.1" 200 18432
+INFO 2023-12-29 21:03:47,130 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /reset-password/ HTTP/1.1" 200 17112
+INFO 2023-12-29 21:04:10,027 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "POST /reset-password/ HTTP/1.1" 302 0
+INFO 2023-12-29 21:04:10,049 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /password-reset-done/ HTTP/1.1" 200 12863
+INFO 2023-12-29 21:04:16,129 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /login/ HTTP/1.1" 200 18432
+INFO 2023-12-29 21:05:45,567 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 200 18865
+INFO 2023-12-29 21:05:51,579 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 200 18865
+INFO 2023-12-29 21:06:10,165 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 200 18865
+INFO 2023-12-29 21:06:20,273 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 200 18865
+INFO 2023-12-29 21:06:31,404 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 200 18865
+INFO 2023-12-29 21:06:36,585 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 200 18865
+INFO 2023-12-29 21:06:53,494 django.server Thread-9 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin HTTP/1.1" 301 0
+INFO 2023-12-29 21:06:53,525 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-12-29 21:06:53,571 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3693
+INFO 2023-12-29 21:06:53,630 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2023-12-29 21:06:53,634 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2023-12-29 21:06:53,635 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2023-12-29 21:06:53,637 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-12-29 21:06:53,640 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2023-12-29 21:06:53,669 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-12-29 21:06:53,669 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-12-29 21:06:57,503 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-12-29 21:06:57,532 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/ HTTP/1.1" 200 8526
+INFO 2023-12-29 21:06:57,583 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:06:57,590 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:06:57,590 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-12-29 21:06:57,591 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:06:57,591 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:06:57,594 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:06:57,594 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:06:57,631 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-12-29 21:06:57,631 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-12-29 21:07:03,375 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2023-12-29 21:07:03,385 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:03,393 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:03,397 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2023-12-29 21:07:03,403 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:03,403 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-12-29 21:07:03,404 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:03,410 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2023-12-29 21:07:03,412 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2023-12-29 21:07:03,423 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 21:07:03,428 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2023-12-29 21:07:03,429 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2023-12-29 21:07:03,449 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-12-29 21:07:03,450 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-12-29 21:07:03,464 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2023-12-29 21:07:03,500 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:03,512 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:03,518 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-12-29 21:07:03,521 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-12-29 21:07:08,086 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/client_relationship_manager/user/2/change/ HTTP/1.1" 200 24612
+INFO 2023-12-29 21:07:08,099 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,102 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,103 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,104 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/forms.css HTTP/1.1" 200 9048
+INFO 2023-12-29 21:07:08,109 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,113 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2023-12-29 21:07:08,115 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,116 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-12-29 21:07:08,131 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 21:07:08,148 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2023-12-29 21:07:08,160 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,162 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,163 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,164 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,178 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,199 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,210 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,230 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-12-29 21:07:08,260 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,266 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,268 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:08,270 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-12-29 21:07:08,337 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-12-29 21:07:08,338 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-12-29 21:07:15,034 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/client_relationship_manager/userprofile/ HTTP/1.1" 200 11437
+INFO 2023-12-29 21:07:15,051 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,052 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,053 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,054 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,056 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,056 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,058 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,059 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,061 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,075 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 21:07:15,078 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,089 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,108 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,109 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,159 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,161 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:15,162 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,457 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2023-12-29 21:07:20,466 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,473 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,474 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,475 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,477 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,479 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,481 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,483 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,486 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,498 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 21:07:20,501 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,519 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,520 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,527 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,570 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,578 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:20,580 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,035 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/client_relationship_manager/agent/ HTTP/1.1" 200 10830
+INFO 2023-12-29 21:07:22,048 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,051 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,054 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,054 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,057 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,058 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,060 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,061 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,066 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,077 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 21:07:22,080 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,099 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,109 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,110 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,159 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,160 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:22,162 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,277 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2023-12-29 21:07:25,287 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,289 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,292 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,294 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,295 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,298 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,302 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,304 django.server Thread-15 (process_request_thread) 140381172774464 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,304 django.server Thread-13 (process_request_thread) 140381195855424 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,321 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2023-12-29 21:07:25,325 django.server Thread-14 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,338 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,351 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,351 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,401 django.server Thread-12 (process_request_thread) 140381204248128 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,402 django.server Thread-17 (process_request_thread) 140381155989056 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-29 21:07:25,403 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+WARNING 2023-12-29 21:07:39,907 django.security.csrf Thread-16 (process_request_thread) 140381164381760 log log.py 241 django.security.csrf log_response 10692 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-12-29 21:07:39,907 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 403 2517
+WARNING 2023-12-29 21:07:48,897 django.security.csrf Thread-16 (process_request_thread) 140381164381760 log log.py 241 django.security.csrf log_response 10692 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-12-29 21:07:48,897 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 403 2517
+INFO 2023-12-29 21:08:19,993 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 30047
+WARNING 2023-12-29 21:08:23,409 django.request Thread-16 (process_request_thread) 140381164381760 base base.py 146 django.request http_method_not_allowed 10692 Method Not Allowed (GET): /logout/
+WARNING 2023-12-29 21:08:23,410 django.request Thread-16 (process_request_thread) 140381164381760 log log.py 241 django.request log_response 10692 Method Not Allowed: /logout/
+WARNING 2023-12-29 21:08:23,410 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /logout/ HTTP/1.1" 405 0
+INFO 2023-12-29 21:08:27,831 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 30047
+WARNING 2023-12-29 21:08:31,237 django.request Thread-16 (process_request_thread) 140381164381760 base base.py 146 django.request http_method_not_allowed 10692 Method Not Allowed (GET): /logout/
+WARNING 2023-12-29 21:08:31,238 django.request Thread-16 (process_request_thread) 140381164381760 log log.py 241 django.request log_response 10692 Method Not Allowed: /logout/
+WARNING 2023-12-29 21:08:31,238 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /logout/ HTTP/1.1" 405 0
+INFO 2023-12-29 21:08:51,647 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 30047
+WARNING 2023-12-29 21:09:00,268 django.request Thread-16 (process_request_thread) 140381164381760 base base.py 146 django.request http_method_not_allowed 10692 Method Not Allowed (GET): /logout/
+WARNING 2023-12-29 21:09:00,268 django.request Thread-16 (process_request_thread) 140381164381760 log log.py 241 django.request log_response 10692 Method Not Allowed: /logout/
+WARNING 2023-12-29 21:09:00,269 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /logout/ HTTP/1.1" 405 0
+INFO 2023-12-29 21:09:04,015 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET /login/ HTTP/1.1" 200 18417
+INFO 2023-12-29 21:09:13,828 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-12-29 21:09:13,849 django.server Thread-16 (process_request_thread) 140381164381760 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 31583
+INFO 2023-12-29 21:17:23,114 django.server Thread-18 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/detail/ HTTP/1.1" 200 6602
+INFO 2023-12-29 21:17:24,828 django.server Thread-18 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/update/ HTTP/1.1" 200 5625
+INFO 2023-12-29 21:17:28,493 django.server Thread-18 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/update/?name=calvin&phone=123&email=calvinokumu%40gmail.com&address=123dew HTTP/1.1" 200 18962
+INFO 2023-12-29 21:46:14,054 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/update/?name=calvin&phone=123&email=calvinokumu%40gmail.com&address=123dew HTTP/1.1" 200 19026
+ERROR 2023-12-29 21:46:30,589 django.request Thread-20 (process_request_thread) 140381181167168 log log.py 241 django.request log_response 10692 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 21:46:30,590 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "POST /1/update/ HTTP/1.1" 500 131435
+INFO 2023-12-29 21:46:41,770 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/detail/ HTTP/1.1" 200 19940
+INFO 2023-12-29 21:46:44,902 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 18334
+INFO 2023-12-29 21:46:46,530 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/detail/ HTTP/1.1" 200 6603
+INFO 2023-12-29 21:46:55,587 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/update/ HTTP/1.1" 200 5690
+ERROR 2023-12-29 21:47:05,111 django.request Thread-20 (process_request_thread) 140381181167168 log log.py 241 django.request log_response 10692 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 21:47:05,112 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "POST /1/update/ HTTP/1.1" 500 131273
+ERROR 2023-12-29 21:47:08,619 django.request Thread-20 (process_request_thread) 140381181167168 log log.py 241 django.request log_response 10692 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 21:47:08,620 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "POST /1/update/ HTTP/1.1" 500 131522
+INFO 2023-12-29 21:47:12,808 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 18383
+INFO 2023-12-29 21:47:14,698 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/detail/ HTTP/1.1" 200 6610
+INFO 2023-12-29 21:47:16,468 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /1/update/ HTTP/1.1" 200 5697
+INFO 2023-12-29 21:49:06,848 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/ HTTP/1.1" 200 13945
+INFO 2023-12-29 21:49:08,918 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/1/detail/ HTTP/1.1" 200 5497
+INFO 2023-12-29 21:49:10,623 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/ HTTP/1.1" 200 13945
+INFO 2023-12-29 21:49:11,956 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/2/detail/ HTTP/1.1" 200 5495
+INFO 2023-12-29 21:49:13,785 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/ HTTP/1.1" 200 13945
+INFO 2023-12-29 21:49:18,783 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 21:50:37,172 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /client/create/ HTTP/1.1" 200 4757
+INFO 2023-12-29 21:50:41,930 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 21:50:42,821 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/ HTTP/1.1" 200 13945
+INFO 2023-12-29 21:50:44,872 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /agents/create_agent/ HTTP/1.1" 200 5595
+INFO 2023-12-29 21:54:41,788 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 21:54:43,636 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /client/create/ HTTP/1.1" 200 4757
+INFO 2023-12-29 21:58:49,272 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /client/create/ HTTP/1.1" 200 18110
+INFO 2023-12-29 21:59:49,002 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /client/create/ HTTP/1.1" 200 18111
+INFO 2023-12-29 21:59:52,792 django.server Thread-20 (process_request_thread) 140381181167168 basehttp basehttp.py 212 django.server log_message 10692 "GET /client/create/ HTTP/1.1" 200 18111
+INFO 2023-12-29 22:04:31,847 django.utils.autoreload MainThread 140381324820480 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 10692 /home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/forms.py changed, reloading.
+INFO 2023-12-29 22:04:32,072 django.utils.autoreload MainThread 139822994591744 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 32335 Watching for file changes with StatReloader
+INFO 2023-12-29 22:04:37,006 django.server Thread-1 (process_request_thread) 139822941234752 basehttp basehttp.py 212 django.server log_message 32335 "GET /client/create/ HTTP/1.1" 200 18111
+INFO 2023-12-29 22:05:53,613 django.utils.autoreload MainThread 139822994591744 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 32335 /home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/forms.py changed, reloading.
+INFO 2023-12-29 22:05:53,869 django.utils.autoreload MainThread 139790839554048 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 32669 Watching for file changes with StatReloader
+INFO 2023-12-29 22:16:08,115 django.utils.autoreload MainThread 139790839554048 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 32669 /home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/forms.py changed, reloading.
+INFO 2023-12-29 22:16:08,331 django.utils.autoreload MainThread 140564794441728 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 34529 Watching for file changes with StatReloader
+ERROR 2023-12-29 22:16:24,148 django.request Thread-1 (process_request_thread) 140564741084736 log log.py 241 django.request log_response 34529 Internal Server Error: /client/create/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 178, in get
+    return super().get(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 142, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 72, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 37, in get_form
+    return form_class(**self.get_form_kwargs())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/forms.py", line 24, in __init__
+    self.helper.layout = Layout(
+NameError: name 'Layout' is not defined
+ERROR 2023-12-29 22:16:24,149 django.server Thread-1 (process_request_thread) 140564741084736 basehttp basehttp.py 212 django.server log_message 34529 "GET /client/create/ HTTP/1.1" 500 106663
+INFO 2023-12-29 22:16:41,635 django.utils.autoreload MainThread 140564794441728 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 34529 /home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/forms.py changed, reloading.
+INFO 2023-12-29 22:16:41,870 django.utils.autoreload MainThread 139850748928000 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 34737 Watching for file changes with StatReloader
+INFO 2023-12-29 22:16:44,573 django.server Thread-1 (process_request_thread) 139850695571008 basehttp basehttp.py 212 django.server log_message 34737 "GET /client/create/ HTTP/1.1" 200 18067
+INFO 2023-12-29 22:16:58,618 django.server Thread-1 (process_request_thread) 139850695571008 basehttp basehttp.py 212 django.server log_message 34737 "GET /client/create/ HTTP/1.1" 200 18067
+INFO 2023-12-29 22:19:24,822 django.utils.autoreload MainThread 139850748928000 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 34737 /home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/forms.py changed, reloading.
+INFO 2023-12-29 22:19:25,026 django.utils.autoreload MainThread 140251153510400 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 35320 Watching for file changes with StatReloader
+ERROR 2023-12-29 22:20:16,135 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /client/create/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(attrs={'class': 'dark:text-white'})' from 'field.label_tag(attrs={'class': 'dark:text-white'})'
+ERROR 2023-12-29 22:20:16,136 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 500 212344
+INFO 2023-12-29 22:22:27,090 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 200 19219
+INFO 2023-12-29 22:26:29,214 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 200 19631
+INFO 2023-12-29 22:26:58,547 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 200 19631
+ERROR 2023-12-29 22:29:16,370 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /client/create/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 1489, in do_with
+    extra_context = token_kwargs(remaining_bits, parser, support_legacy=True)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1111, in token_kwargs
+    kwargs[key] = parser.compile_filter(value)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 693, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 603, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'add_class'
+ERROR 2023-12-29 22:29:16,370 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 500 299727
+ERROR 2023-12-29 22:30:14,570 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /client/create/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 1498, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 1489, in do_with
+    extra_context = token_kwargs(remaining_bits, parser, support_legacy=True)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1111, in token_kwargs
+    kwargs[key] = parser.compile_filter(value)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 693, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 603, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'attr'
+ERROR 2023-12-29 22:30:14,570 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 500 293519
+INFO 2023-12-29 22:31:17,785 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 200 19724
+INFO 2023-12-29 22:35:49,104 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 200 19223
+INFO 2023-12-29 22:40:29,418 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /client/create/ HTTP/1.1" 200 18094
+INFO 2023-12-29 22:43:08,686 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 22:44:56,188 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /1/detail/ HTTP/1.1" 200 6610
+INFO 2023-12-29 22:44:57,867 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /1/update/ HTTP/1.1" 200 5697
+ERROR 2023-12-29 22:45:04,623 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:45:04,624 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131289
+ERROR 2023-12-29 22:47:52,618 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:52,619 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131528
+ERROR 2023-12-29 22:47:53,697 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:53,698 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131544
+ERROR 2023-12-29 22:47:53,929 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:53,930 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131544
+ERROR 2023-12-29 22:47:54,124 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:54,124 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131544
+ERROR 2023-12-29 22:47:54,298 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:54,299 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131544
+ERROR 2023-12-29 22:47:54,470 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:54,471 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131544
+ERROR 2023-12-29 22:47:54,664 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:54,665 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131547
+ERROR 2023-12-29 22:47:54,838 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:54,839 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131547
+ERROR 2023-12-29 22:47:55,023 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:47:55,024 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131547
+ERROR 2023-12-29 22:48:19,283 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:48:19,284 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131548
+ERROR 2023-12-29 22:48:27,559 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:48:27,560 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131548
+INFO 2023-12-29 22:48:59,116 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET / HTTP/1.1" 200 18873
+INFO 2023-12-29 22:49:09,084 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /1/detail/ HTTP/1.1" 200 6622
+INFO 2023-12-29 22:49:11,652 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /1/update/ HTTP/1.1" 200 5712
+ERROR 2023-12-29 22:49:15,077 django.request Thread-1 (process_request_thread) 140251100153408 log log.py 241 django.request log_response 35320 Internal Server Error: /1/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2023-12-29 22:49:15,078 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /1/update/ HTTP/1.1" 500 131289
+INFO 2023-12-29 22:49:22,571 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /1/detail/ HTTP/1.1" 200 19959
+INFO 2023-12-29 22:49:28,575 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET / HTTP/1.1" 200 18334
+INFO 2023-12-29 22:49:33,264 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 22:49:34,202 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 22:49:35,250 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 22:49:35,451 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 22:49:35,659 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET / HTTP/1.1" 200 18246
+INFO 2023-12-29 22:49:43,872 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /agents/ HTTP/1.1" 200 27282
+INFO 2023-12-29 22:49:46,562 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /agents/2/detail/ HTTP/1.1" 200 5495
+INFO 2023-12-29 22:50:01,063 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /agents/1/detail/ HTTP/1.1" 200 5497
+INFO 2023-12-29 22:50:06,121 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /agents/2/detail/ HTTP/1.1" 200 5495
+INFO 2023-12-29 22:50:07,628 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /agents/2/delete/ HTTP/1.1" 200 3769
+INFO 2023-12-29 22:50:10,283 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "POST /agents/2/delete/ HTTP/1.1" 302 0
+INFO 2023-12-29 22:50:10,305 django.server Thread-1 (process_request_thread) 140251100153408 basehttp basehttp.py 212 django.server log_message 35320 "GET /agents/ HTTP/1.1" 200 12838
+INFO 2023-12-30 07:17:04,293 django.utils.autoreload MainThread 140217447555072 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 1815 Watching for file changes with StatReloader
+INFO 2023-12-30 07:17:10,068 django.server Thread-1 (process_request_thread) 140217326499392 basehttp basehttp.py 212 django.server log_message 1815 "GET / HTTP/1.1" 200 31583
+WARNING 2023-12-30 07:17:22,956 django.request Thread-1 (process_request_thread) 140217326499392 log log.py 241 django.request log_response 1815 Not Found: /favicon.ico
+WARNING 2023-12-30 07:17:22,958 django.server Thread-1 (process_request_thread) 140217326499392 basehttp basehttp.py 212 django.server log_message 1815 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2023-12-30 07:40:20,511 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "GET /client/create/ HTTP/1.1" 200 4757
+INFO 2023-12-30 07:40:51,014 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "POST /client/create/ HTTP/1.1" 302 0
+INFO 2023-12-30 07:40:51,031 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "GET / HTTP/1.1" 200 18901
+INFO 2023-12-30 07:41:11,591 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "GET /2/detail/ HTTP/1.1" 200 6595
+WARNING 2023-12-30 07:42:35,011 django.request Thread-3 (process_request_thread) 140217318106688 log log.py 241 django.request log_response 1815 Not Found: /agentsadmin
+WARNING 2023-12-30 07:42:35,012 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "GET /agentsadmin HTTP/1.1" 404 5058
+INFO 2023-12-30 07:42:41,754 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-12-30 07:42:41,798 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3693
+INFO 2023-12-30 07:42:41,850 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-30 07:42:41,854 django.server Thread-4 (process_request_thread) 140217326499392 basehttp basehttp.py 212 django.server log_message 1815 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-30 07:42:41,858 django.server Thread-8 (process_request_thread) 140217282438720 basehttp basehttp.py 212 django.server log_message 1815 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-30 07:42:41,858 django.server Thread-7 (process_request_thread) 140217290831424 basehttp basehttp.py 212 django.server log_message 1815 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-30 07:42:41,858 django.server Thread-4 (process_request_thread) 140217326499392 basehttp basehttp.py 212 django.server log_message 1815 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-30 07:42:41,859 django.server Thread-6 (process_request_thread) 140217299224128 basehttp basehttp.py 212 django.server log_message 1815 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-12-30 07:42:41,859 django.server Thread-5 (process_request_thread) 140217307616832 basehttp basehttp.py 212 django.server log_message 1815 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-12 08:59:08,402 django.utils.autoreload MainThread 140239476920320 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 80572 Watching for file changes with StatReloader
+INFO 2024-04-12 08:59:14,015 django.server Thread-1 (process_request_thread) 140239423538752 basehttp basehttp.py 212 django.server log_message 80572 "GET / HTTP/1.1" 302 0
+INFO 2024-04-12 08:59:14,108 django.server Thread-1 (process_request_thread) 140239423538752 basehttp basehttp.py 212 django.server log_message 80572 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2024-04-12 08:59:14,138 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2024-04-12 08:59:15,557 django.request Thread-2 (process_request_thread) 140239415146048 log log.py 241 django.request log_response 80572 Not Found: /favicon.ico
+WARNING 2024-04-12 08:59:15,558 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2024-04-12 08:59:34,666 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "POST /login/?next=/ HTTP/1.1" 302 0
+INFO 2024-04-12 08:59:34,698 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "GET / HTTP/1.1" 200 30047
+INFO 2024-04-12 08:59:49,742 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "GET /client/create/ HTTP/1.1" 200 4757

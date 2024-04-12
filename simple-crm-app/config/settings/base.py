@@ -54,11 +54,11 @@ INSTALLED_APPS = [
     
 ]
 
-# This setting is used by HtmxResponseMiddleware
+# This setting is used by custom middleware HtmxResponseMiddleware
 HTMX_APPS = [
     'crm',
     'agents',
-    'inventory'
+    'inventory',
 ]
 
 MIDDLEWARE = [
@@ -72,7 +72,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_htmx.middleware.HtmxMiddleware',
     # 'django_htmx_refresh.middleware.HtmxResponseMiddleware',
-    'middleware.HtmxResponseMiddleware',
+    # 'middleware.HtmxResponseMiddleware',
+     'middlewares.customMiddleware.HtmxTemplateResponseMiddleware.HtmxResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -174,7 +175,7 @@ LOGGERS = (
         "django.template": {
             "handlers": ["error_handler"],
             "level": "DEBUG",
-            "propagate": True,
+            "propagate": False,
         },
         "django.server": {
             "handlers": ["error_handler"],

@@ -13,7 +13,7 @@ SECRET_KEY="django-insecure-h*wprd2xbt#!jq#rrkr_ww2h(md#=bm&a0ok4h!tp(081%+6)6"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'carlhub',
+        'NAME': 'carlhubdb',
         'USER':'carlhub',
         'PASSWORD': '1234',
         'HOST': '127.0.0.1',
