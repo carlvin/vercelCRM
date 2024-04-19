@@ -5826,3 +5826,796 @@ WARNING 2024-04-12 08:59:15,558 django.server Thread-2 (process_request_thread) 
 INFO 2024-04-12 08:59:34,666 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "POST /login/?next=/ HTTP/1.1" 302 0
 INFO 2024-04-12 08:59:34,698 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "GET / HTTP/1.1" 200 30047
 INFO 2024-04-12 08:59:49,742 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "GET /client/create/ HTTP/1.1" 200 4757
+INFO 2024-04-16 17:34:33,646 django.utils.autoreload MainThread 140586362683392 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 35911 Watching for file changes with StatReloader
+INFO 2024-04-16 17:34:41,631 django.server Thread-1 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET / HTTP/1.1" 200 30047
+WARNING 2024-04-16 17:34:44,657 django.request Thread-1 (process_request_thread) 140586309301824 log log.py 241 django.request log_response 35911 Not Found: /favicon.ico
+WARNING 2024-04-16 17:34:44,659 django.server Thread-1 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2024-04-16 17:35:08,373 django.server Thread-1 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET / HTTP/1.1" 200 30047
+INFO 2024-04-16 17:37:27,264 django.server Thread-3 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-16 17:37:27,444 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/ HTTP/1.1" 200 8526
+INFO 2024-04-16 17:37:27,489 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-16 17:37:27,491 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-16 17:37:27,491 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-16 17:37:27,494 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-16 17:37:27,503 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-16 17:37:27,527 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-16 17:37:27,532 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-16 17:37:27,553 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-16 17:37:27,555 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-16 17:37:30,520 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2024-04-16 17:37:30,544 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:30,545 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:30,552 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:30,553 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-16 17:37:30,557 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-16 17:37:30,557 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-16 17:37:30,567 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-16 17:37:30,586 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:30,600 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-16 17:37:30,604 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-16 17:37:30,607 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-16 17:37:30,626 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:37:30,636 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-16 17:37:30,644 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-16 17:37:30,683 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:30,704 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:30,726 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-16 17:37:30,732 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-16 17:37:34,402 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/client/ HTTP/1.1" 200 10785
+INFO 2024-04-16 17:37:34,412 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,420 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,421 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,421 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,421 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,429 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,430 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,433 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,434 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,464 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,465 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:37:34,468 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,483 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,485 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,540 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,541 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:34,553 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,913 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/device/ HTTP/1.1" 200 9219
+INFO 2024-04-16 17:37:37,926 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,930 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,931 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,932 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,932 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,935 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,938 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,940 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,940 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,973 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,986 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,987 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:37:37,990 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:37,993 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:38,041 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:38,052 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:38,060 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:39,956 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/userprofile/ HTTP/1.1" 200 11437
+INFO 2024-04-16 17:37:39,970 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:39,979 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:39,980 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:39,983 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:39,983 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:39,988 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:39,992 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:39,994 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:40,003 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:40,006 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:37:40,013 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:40,023 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:40,041 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:40,043 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:40,091 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:40,095 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:40,103 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,403 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2024-04-16 17:37:42,414 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,421 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,423 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,424 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,424 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,426 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,430 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,430 django.server Thread-5 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,432 django.server Thread-4 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,451 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:37:42,454 django.server Thread-9 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,462 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,469 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,481 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,534 django.server Thread-8 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,534 django.server Thread-6 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:37:42,538 django.server Thread-7 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:43:39,541 django.server Thread-10 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET / HTTP/1.1" 302 0
+INFO 2024-04-16 17:43:39,555 django.server Thread-10 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2024-04-16 17:43:39,588 django.server Thread-11 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2024-04-16 17:43:42,144 django.request Thread-11 (process_request_thread) 140586046694976 log log.py 241 django.request log_response 35911 Not Found: /favicon.ico
+WARNING 2024-04-16 17:43:42,145 django.server Thread-11 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2024-04-16 17:43:47,779 django.server Thread-11 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-16 17:43:47,787 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-16 17:43:47,803 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-16 17:43:47,870 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-16 17:43:47,875 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-16 17:43:47,887 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-16 17:43:47,888 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-16 17:43:47,889 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-16 17:43:48,040 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-16 17:43:48,041 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-16 17:43:51,922 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-16 17:43:51,961 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/ HTTP/1.1" 200 8526
+INFO 2024-04-16 17:43:52,037 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:43:52,038 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:43:52,039 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:43:52,040 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-16 17:43:52,050 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:43:52,193 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:43:52,193 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:43:52,215 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-16 17:43:52,221 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-16 17:44:03,119 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/agent/ HTTP/1.1" 200 10520
+INFO 2024-04-16 17:44:03,131 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:03,153 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-16 17:44:03,154 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-16 17:44:03,156 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-16 17:44:03,168 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:03,168 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:03,171 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:03,173 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-16 17:44:03,181 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-16 17:44:03,188 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:44:03,192 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-16 17:44:03,210 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-16 17:44:03,220 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-16 17:44:03,235 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-16 17:44:03,427 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:03,427 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:03,458 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-16 17:44:03,476 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-16 17:44:49,775 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2024-04-16 17:44:49,838 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,839 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,839 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,839 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,841 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,851 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,855 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,856 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,857 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,859 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,903 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,909 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:44:49,918 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:49,920 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:50,123 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:50,130 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:50,157 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,419 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/userprofile/ HTTP/1.1" 200 11437
+INFO 2024-04-16 17:44:53,455 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,457 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,461 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,462 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,464 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,464 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,465 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,467 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,469 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,493 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:44:53,497 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,516 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,517 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,517 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,656 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,658 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:53,669 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,621 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2024-04-16 17:44:55,643 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,658 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,659 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,659 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,661 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,667 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,669 django.server Thread-16 (process_request_thread) 140585545492032 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,671 django.server Thread-12 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,671 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,692 django.server Thread-17 (process_request_thread) 140585537099328 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,710 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:44:55,713 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,718 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,727 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,798 django.server Thread-13 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,804 django.server Thread-14 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:44:55,830 django.server Thread-15 (process_request_thread) 140585553884736 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,867 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/userprofile/ HTTP/1.1" 200 11437
+INFO 2024-04-16 17:46:53,880 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,881 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,884 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,886 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,895 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,899 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,901 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,904 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,909 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,954 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,955 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,956 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,965 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:53,971 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:46:54,003 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:54,020 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:54,029 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:54,037 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-04-16 17:46:54,038 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,634 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2024-04-16 17:47:00,645 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,653 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,654 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,654 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,654 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,657 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,660 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,661 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,661 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,681 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:47:00,684 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,693 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,712 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,713 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,764 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,765 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:00,775 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,247 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/userprofile/ HTTP/1.1" 200 11437
+INFO 2024-04-16 17:47:02,262 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,264 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,264 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,266 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,269 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,272 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,274 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,277 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,280 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,312 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:47:02,316 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,323 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,329 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,330 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,382 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,385 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:02,394 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,034 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/client/ HTTP/1.1" 200 10785
+INFO 2024-04-16 17:47:40,063 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,064 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,065 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,066 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,069 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,069 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,078 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,079 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,082 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,100 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,108 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:47:40,119 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,125 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,126 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,179 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,180 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:40,184 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,763 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/user/ HTTP/1.1" 200 11339
+INFO 2024-04-16 17:47:43,780 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,789 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,790 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,790 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,790 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,795 django.server Thread-21 (process_request_thread) 140586063480384 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,798 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,803 django.server Thread-20 (process_request_thread) 140586071873088 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,803 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,835 django.server Thread-19 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,842 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,843 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 17:47:43,846 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,851 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,892 django.server Thread-23 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,901 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:43,909 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 17:47:59,332 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /agents/ HTTP/1.1" 200 10460
+INFO 2024-04-16 17:48:03,431 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /agents/ HTTP/1.1" 200 10460
+INFO 2024-04-16 17:48:05,288 django.server Thread-22 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /agents/create_agent/ HTTP/1.1" 200 5595
+INFO 2024-04-16 17:50:11,475 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /agents/ HTTP/1.1" 200 12734
+INFO 2024-04-16 17:51:32,828 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /agents/3/detail/ HTTP/1.1" 200 5499
+INFO 2024-04-16 17:51:58,450 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET / HTTP/1.1" 200 16725
+INFO 2024-04-16 17:52:00,786 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /client/create/ HTTP/1.1" 200 4757
+INFO 2024-04-16 17:52:27,572 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /client/create/ HTTP/1.1" 302 0
+INFO 2024-04-16 17:52:27,605 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET / HTTP/1.1" 200 18332
+INFO 2024-04-16 17:53:10,814 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /3/detail/ HTTP/1.1" 200 6603
+INFO 2024-04-16 17:53:18,764 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /3/update/ HTTP/1.1" 200 5701
+ERROR 2024-04-16 17:53:27,622 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:27,623 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131030
+ERROR 2024-04-16 17:53:29,975 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:29,977 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131269
+ERROR 2024-04-16 17:53:31,888 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:31,889 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131285
+ERROR 2024-04-16 17:53:32,633 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:32,634 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131285
+INFO 2024-04-16 17:53:36,932 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET / HTTP/1.1" 200 18479
+INFO 2024-04-16 17:53:40,619 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /3/detail/ HTTP/1.1" 200 6600
+INFO 2024-04-16 17:53:42,507 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /3/update/ HTTP/1.1" 200 5698
+ERROR 2024-04-16 17:53:55,558 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:55,559 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131031
+INFO 2024-04-16 17:54:16,442 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET / HTTP/1.1" 200 18332
+ERROR 2024-04-16 17:54:30,758 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:30,759 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=cli HTTP/1.1" 500 93894
+ERROR 2024-04-16 17:54:33,252 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:33,254 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=cl HTTP/1.1" 500 93883
+ERROR 2024-04-16 17:54:34,026 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:34,028 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=c HTTP/1.1" 500 93872
+INFO 2024-04-16 17:54:34,608 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q= HTTP/1.1" 200 11971
+ERROR 2024-04-16 17:54:40,826 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:40,828 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=c HTTP/1.1" 500 93892
+ERROR 2024-04-16 17:54:41,822 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:41,823 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=ca HTTP/1.1" 500 93903
+ERROR 2024-04-16 17:54:42,611 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:42,621 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=cal HTTP/1.1" 500 93914
+ERROR 2024-04-16 17:54:44,551 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:44,552 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=calvi HTTP/1.1" 500 93936
+ERROR 2024-04-16 17:54:45,614 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:45,615 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=calvin HTTP/1.1" 500 93947
+ERROR 2024-04-16 17:54:49,796 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:49,797 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=calvin HTTP/1.1" 500 93526
+INFO 2024-04-16 17:55:11,581 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q= HTTP/1.1" 200 11971
+INFO 2024-04-16 18:18:54,990 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET / HTTP/1.1" 200 18244
+INFO 2024-04-16 18:18:57,220 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /agents/ HTTP/1.1" 200 12734
+INFO 2024-04-16 18:20:32,783 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/user/add/ HTTP/1.1" 200 24161
+INFO 2024-04-16 18:20:32,794 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,802 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,803 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,805 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/forms.css HTTP/1.1" 200 9048
+INFO 2024-04-16 18:20:32,813 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-04-16 18:20:32,816 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,819 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-04-16 18:20:32,819 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-04-16 18:20:32,841 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,846 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 18:20:32,860 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,881 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,883 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,899 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,901 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,909 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,933 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:32,936 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-16 18:20:32,981 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:33,002 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:33,002 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:33,004 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-16 18:20:33,079 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-04-16 18:20:33,080 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-04-16 18:20:50,826 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/device/ HTTP/1.1" 200 9219
+INFO 2024-04-16 18:20:50,851 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,852 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,852 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,855 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,858 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,860 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,860 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,891 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,892 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 18:20:50,900 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,913 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,913 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,914 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,940 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,963 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:50,993 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:51,004 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:51,008 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,104 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/device/add/ HTTP/1.1" 200 13230
+INFO 2024-04-16 18:20:53,119 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,121 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,122 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,123 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,123 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,126 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,128 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,150 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 18:20:53,157 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,177 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,177 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,177 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,180 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,225 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,225 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,226 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,280 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,283 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:20:53,284 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,532 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /admin/client_relationship_manager/device/add/ HTTP/1.1" 302 0
+INFO 2024-04-16 18:21:37,579 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/device/ HTTP/1.1" 200 10767
+INFO 2024-04-16 18:21:37,641 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,642 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,643 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,643 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,647 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,649 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,652 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,675 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 18:21:37,684 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,684 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,701 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,704 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,705 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,729 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,755 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,780 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,787 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:21:37,792 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+WARNING 2024-04-16 18:21:48,791 django.request Thread-26 (process_request_thread) 140586055087680 log log.py 241 django.request log_response 35911 Not Found: /device
+WARNING 2024-04-16 18:21:48,791 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /device HTTP/1.1" 404 5043
+WARNING 2024-04-16 18:22:05,934 django.request Thread-26 (process_request_thread) 140586055087680 log log.py 241 django.request log_response 35911 Not Found: /returned_devices
+WARNING 2024-04-16 18:22:05,934 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /returned_devices HTTP/1.1" 404 5073
+INFO 2024-04-16 18:22:14,446 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /returned_device HTTP/1.1" 301 0
+INFO 2024-04-16 18:22:14,488 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /returned_device/ HTTP/1.1" 200 24155
+INFO 2024-04-16 18:23:49,983 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/client/ HTTP/1.1" 200 11071
+INFO 2024-04-16 18:23:49,997 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,001 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,003 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,007 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,010 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,013 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,013 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,016 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,019 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,040 django.server Thread-29 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 18:23:50,044 django.server Thread-29 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,062 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,063 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,064 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,110 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,112 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:50,117 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,295 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/device/ HTTP/1.1" 200 10532
+INFO 2024-04-16 18:23:54,304 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,311 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,311 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,311 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,312 django.server Thread-29 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,318 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,319 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,320 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,322 django.server Thread-29 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,338 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 18:23:54,341 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,351 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,369 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,371 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,422 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,422 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:54,425 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,344 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/client_relationship_manager/userprofile/ HTTP/1.1" 200 11732
+INFO 2024-04-16 18:23:58,354 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,360 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,367 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,367 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,368 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,368 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,377 django.server Thread-24 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,377 django.server Thread-28 (process_request_thread) 140586300909120 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,379 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,401 django.server Thread-27 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,408 django.server Thread-29 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-16 18:23:58,416 django.server Thread-29 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,419 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,431 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,471 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,482 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-16 18:23:58,488 django.server Thread-29 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0

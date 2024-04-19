@@ -3327,3 +3327,343 @@ WARNING 2023-12-30 07:42:35,011 django.request Thread-3 (process_request_thread)
 WARNING 2023-12-30 07:42:35,012 django.server Thread-3 (process_request_thread) 140217318106688 basehttp basehttp.py 212 django.server log_message 1815 "GET /agentsadmin HTTP/1.1" 404 5058
 WARNING 2024-04-12 08:59:15,557 django.request Thread-2 (process_request_thread) 140239415146048 log log.py 241 django.request log_response 80572 Not Found: /favicon.ico
 WARNING 2024-04-12 08:59:15,558 django.server Thread-2 (process_request_thread) 140239415146048 basehttp basehttp.py 212 django.server log_message 80572 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-04-16 17:34:44,657 django.request Thread-1 (process_request_thread) 140586309301824 log log.py 241 django.request log_response 35911 Not Found: /favicon.ico
+WARNING 2024-04-16 17:34:44,659 django.server Thread-1 (process_request_thread) 140586309301824 basehttp basehttp.py 212 django.server log_message 35911 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-04-16 17:43:42,144 django.request Thread-11 (process_request_thread) 140586046694976 log log.py 241 django.request log_response 35911 Not Found: /favicon.ico
+WARNING 2024-04-16 17:43:42,145 django.server Thread-11 (process_request_thread) 140586046694976 basehttp basehttp.py 212 django.server log_message 35911 "GET /favicon.ico HTTP/1.1" 404 5058
+ERROR 2024-04-16 17:53:27,622 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:27,623 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131030
+ERROR 2024-04-16 17:53:29,975 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:29,977 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131269
+ERROR 2024-04-16 17:53:31,888 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:31,889 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131285
+ERROR 2024-04-16 17:53:32,633 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:32,634 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131285
+ERROR 2024-04-16 17:53:55,558 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /3/update/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 134, in form_valid
+    return super().form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/http/response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/encoding.py", line 138, in iri_to_uri
+    iri = str(iri)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_client' not found. 'detail_client' is not a valid view function or pattern name.
+ERROR 2024-04-16 17:53:55,559 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "POST /3/update/ HTTP/1.1" 500 131031
+ERROR 2024-04-16 17:54:30,758 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:30,759 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=cli HTTP/1.1" 500 93894
+ERROR 2024-04-16 17:54:33,252 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:33,254 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=cl HTTP/1.1" 500 93883
+ERROR 2024-04-16 17:54:34,026 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:34,028 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=c HTTP/1.1" 500 93872
+ERROR 2024-04-16 17:54:40,826 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:40,828 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=c HTTP/1.1" 500 93892
+ERROR 2024-04-16 17:54:41,822 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:41,823 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=ca HTTP/1.1" 500 93903
+ERROR 2024-04-16 17:54:42,611 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:42,621 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=cal HTTP/1.1" 500 93914
+ERROR 2024-04-16 17:54:44,551 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:44,552 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=calvi HTTP/1.1" 500 93936
+ERROR 2024-04-16 17:54:45,614 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:45,615 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=calvin HTTP/1.1" 500 93947
+ERROR 2024-04-16 17:54:49,796 django.request Thread-18 (process_request_thread) 140586080265792 log log.py 241 django.request log_response 35911 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/client_relationship_manager/views.py", line 57, in get_queryset
+    | Q(email__icontains=query),organisation =self.userprofile
+AttributeError: 'SearchResultView' object has no attribute 'userprofile'
+ERROR 2024-04-16 17:54:49,797 django.server Thread-18 (process_request_thread) 140586080265792 basehttp basehttp.py 212 django.server log_message 35911 "GET /search/?q=calvin HTTP/1.1" 500 93526
+WARNING 2024-04-16 18:21:48,791 django.request Thread-26 (process_request_thread) 140586055087680 log log.py 241 django.request log_response 35911 Not Found: /device
+WARNING 2024-04-16 18:21:48,791 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /device HTTP/1.1" 404 5043
+WARNING 2024-04-16 18:22:05,934 django.request Thread-26 (process_request_thread) 140586055087680 log log.py 241 django.request log_response 35911 Not Found: /returned_devices
+WARNING 2024-04-16 18:22:05,934 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /returned_devices HTTP/1.1" 404 5073
