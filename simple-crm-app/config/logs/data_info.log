@@ -6619,3 +6619,25 @@ INFO 2024-04-16 18:23:58,431 django.server Thread-30 (process_request_thread) 14
 INFO 2024-04-16 18:23:58,471 django.server Thread-25 (process_request_thread) 140586037253696 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
 INFO 2024-04-16 18:23:58,482 django.server Thread-30 (process_request_thread) 140586088658496 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
 INFO 2024-04-16 18:23:58,488 django.server Thread-29 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-22 12:42:57,200 django.utils.autoreload MainThread 139835378921472 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 2439 Watching for file changes with StatReloader
+INFO 2024-04-22 12:43:03,255 django.server Thread-1 (process_request_thread) 139835325539904 basehttp basehttp.py 212 django.server log_message 2439 "GET / HTTP/1.1" 302 0
+INFO 2024-04-22 12:43:03,338 django.server Thread-1 (process_request_thread) 139835325539904 basehttp basehttp.py 212 django.server log_message 2439 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2024-04-22 12:43:03,396 django.server Thread-2 (process_request_thread) 139835325539904 basehttp basehttp.py 212 django.server log_message 2439 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2024-04-22 12:43:04,644 django.request Thread-2 (process_request_thread) 139835325539904 log log.py 241 django.request log_response 2439 Not Found: /favicon.ico
+WARNING 2024-04-22 12:43:04,645 django.server Thread-2 (process_request_thread) 139835325539904 basehttp basehttp.py 212 django.server log_message 2439 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2024-04-22 12:43:16,768 django.server Thread-2 (process_request_thread) 139835325539904 basehttp basehttp.py 212 django.server log_message 2439 "GET /login/?next=/admin HTTP/1.1" 200 17183
+INFO 2024-04-22 12:44:17,802 django.utils.autoreload MainThread 140252528381952 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 3258 Watching for file changes with StatReloader
+INFO 2024-04-22 12:44:31,032 django.server Thread-1 (process_request_thread) 140252475000384 basehttp basehttp.py 212 django.server log_message 3258 "GET /login/?next=/ HTTP/1.1" 200 17183
+INFO 2024-04-22 12:44:37,465 django.server Thread-1 (process_request_thread) 140252475000384 basehttp basehttp.py 212 django.server log_message 3258 "POST /login/?next=/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:44:37,497 django.server Thread-1 (process_request_thread) 140252475000384 basehttp basehttp.py 212 django.server log_message 3258 "GET / HTTP/1.1" 200 31566
+INFO 2024-04-22 12:44:45,464 django.server Thread-1 (process_request_thread) 140252475000384 basehttp basehttp.py 212 django.server log_message 3258 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-22 12:44:45,527 django.server Thread-2 (process_request_thread) 140252466607680 basehttp basehttp.py 212 django.server log_message 3258 "GET /admin/ HTTP/1.1" 200 8940
+INFO 2024-04-22 12:44:45,544 django.server Thread-2 (process_request_thread) 140252466607680 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-22 12:44:45,545 django.server Thread-3 (process_request_thread) 140252475000384 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-22 12:44:45,546 django.server Thread-4 (process_request_thread) 140252456117824 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-22 12:44:45,562 django.server Thread-5 (process_request_thread) 140252447725120 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-22 12:44:45,566 django.server Thread-3 (process_request_thread) 140252475000384 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-22 12:44:45,570 django.server Thread-7 (process_request_thread) 140252089939520 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-22 12:44:45,571 django.server Thread-6 (process_request_thread) 140252439332416 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-22 12:44:45,599 django.server Thread-7 (process_request_thread) 140252089939520 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-22 12:44:45,600 django.server Thread-2 (process_request_thread) 140252466607680 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331

@@ -24,7 +24,7 @@ else:
 
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost',]
+#ALLOWED_HOSTS = ['127.0.0.1', 'localhost',]
 
 
 # Application definition
@@ -246,7 +246,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # Modified location based on config folder
 STATICFILES_DIRS = [
-    BASE_DIR / "../static"
+    BASE_DIR / '../static',
 ]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = "media_root"

@@ -3667,3 +3667,5 @@ WARNING 2024-04-16 18:21:48,791 django.request Thread-26 (process_request_thread
 WARNING 2024-04-16 18:21:48,791 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /device HTTP/1.1" 404 5043
 WARNING 2024-04-16 18:22:05,934 django.request Thread-26 (process_request_thread) 140586055087680 log log.py 241 django.request log_response 35911 Not Found: /returned_devices
 WARNING 2024-04-16 18:22:05,934 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /returned_devices HTTP/1.1" 404 5073
+WARNING 2024-04-22 12:43:04,644 django.request Thread-2 (process_request_thread) 139835325539904 log log.py 241 django.request log_response 2439 Not Found: /favicon.ico
+WARNING 2024-04-22 12:43:04,645 django.server Thread-2 (process_request_thread) 139835325539904 basehttp basehttp.py 212 django.server log_message 2439 "GET /favicon.ico HTTP/1.1" 404 5058

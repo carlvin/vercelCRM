@@ -31,7 +31,7 @@ services:
     build: ./nginx
     ports:
       - "444:444"
-      - "83:83"
+      - "80:80"
       
     volumes:
       - static_volume:/home/static
