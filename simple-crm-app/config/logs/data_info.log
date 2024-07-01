@@ -6679,3 +6679,5 @@ INFO 2024-07-01 07:25:59,183 django.server Thread-1 (process_request_thread) 140
 INFO 2024-07-01 07:26:04,521 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET /agents/create_agent/ HTTP/1.1" 200 5595
 INFO 2024-07-01 07:26:47,068 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "POST /agents/create_agent/ HTTP/1.1" 302 0
 INFO 2024-07-01 07:26:50,685 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET /agents/ HTTP/1.1" 200 12809
+INFO 2024-07-01 12:27:54,404 django.utils.autoreload MainThread 140445063987200 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 170071 Watching for file changes with StatReloader
+INFO 2024-07-01 12:28:05,087 django.server Thread-1 (process_request_thread) 140445010601536 basehttp basehttp.py 212 django.server log_message 170071 "GET / HTTP/1.1" 200 31560
