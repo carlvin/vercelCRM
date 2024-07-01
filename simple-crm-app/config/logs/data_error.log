@@ -3669,3 +3669,12 @@ WARNING 2024-04-16 18:22:05,934 django.request Thread-26 (process_request_thread
 WARNING 2024-04-16 18:22:05,934 django.server Thread-26 (process_request_thread) 140586055087680 basehttp basehttp.py 212 django.server log_message 35911 "GET /returned_devices HTTP/1.1" 404 5073
 WARNING 2024-04-22 12:43:04,644 django.request Thread-2 (process_request_thread) 139835325539904 log log.py 241 django.request log_response 2439 Not Found: /favicon.ico
 WARNING 2024-04-22 12:43:04,645 django.server Thread-2 (process_request_thread) 139835325539904 basehttp basehttp.py 212 django.server log_message 2439 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-06-06 07:33:02,608 django.request Thread-2 (process_request_thread) 139937425061440 log log.py 241 django.request log_response 6579 Not Found: /favicon.ico
+WARNING 2024-06-06 07:33:02,609 django.server Thread-2 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-06-06 07:36:02,328 django.request Thread-3 (process_request_thread) 139937425061440 base base.py 146 django.request http_method_not_allowed 6579 Method Not Allowed (GET): /logout/
+WARNING 2024-06-06 07:36:02,353 django.request Thread-3 (process_request_thread) 139937425061440 log log.py 241 django.request log_response 6579 Method Not Allowed: /logout/
+WARNING 2024-06-06 07:36:02,354 django.server Thread-3 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "GET /logout/ HTTP/1.1" 405 0
+WARNING 2024-06-06 07:36:26,024 django.request Thread-6 (process_request_thread) 139937204659776 log log.py 241 django.request log_response 6579 Not Found: /favicon.ico
+WARNING 2024-06-06 07:36:26,024 django.server Thread-6 (process_request_thread) 139937204659776 basehttp basehttp.py 212 django.server log_message 6579 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-07-01 06:39:36,386 django.request Thread-2 (process_request_thread) 140093491717696 log log.py 241 django.request log_response 18996 Not Found: /favicon.ico
+WARNING 2024-07-01 06:39:36,386 django.server Thread-2 (process_request_thread) 140093491717696 basehttp basehttp.py 212 django.server log_message 18996 "GET /favicon.ico HTTP/1.1" 404 5058

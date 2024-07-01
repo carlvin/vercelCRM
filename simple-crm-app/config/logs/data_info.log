@@ -6641,3 +6641,41 @@ INFO 2024-04-22 12:44:45,570 django.server Thread-7 (process_request_thread) 140
 INFO 2024-04-22 12:44:45,571 django.server Thread-6 (process_request_thread) 140252439332416 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
 INFO 2024-04-22 12:44:45,599 django.server Thread-7 (process_request_thread) 140252089939520 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
 INFO 2024-04-22 12:44:45,600 django.server Thread-2 (process_request_thread) 140252466607680 basehttp basehttp.py 212 django.server log_message 3258 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-06-06 07:32:45,622 django.utils.autoreload MainThread 139937486839808 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 6579 Watching for file changes with StatReloader
+INFO 2024-06-06 07:32:58,938 django.server Thread-1 (process_request_thread) 139937433454144 basehttp basehttp.py 212 django.server log_message 6579 "GET / HTTP/1.1" 302 0
+INFO 2024-06-06 07:32:59,072 django.server Thread-1 (process_request_thread) 139937433454144 basehttp basehttp.py 212 django.server log_message 6579 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2024-06-06 07:32:59,196 django.server Thread-2 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2024-06-06 07:33:02,608 django.request Thread-2 (process_request_thread) 139937425061440 log log.py 241 django.request log_response 6579 Not Found: /favicon.ico
+WARNING 2024-06-06 07:33:02,609 django.server Thread-2 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2024-06-06 07:35:24,353 django.server Thread-3 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "POST /login/?next=/ HTTP/1.1" 302 0
+INFO 2024-06-06 07:35:24,394 django.server Thread-3 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "GET / HTTP/1.1" 200 31566
+INFO 2024-06-06 07:35:35,845 django.server Thread-3 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "GET /agents/ HTTP/1.1" 200 12734
+INFO 2024-06-06 07:35:50,985 django.server Thread-3 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "GET /agents/create_agent/ HTTP/1.1" 200 5595
+WARNING 2024-06-06 07:36:02,328 django.request Thread-3 (process_request_thread) 139937425061440 base base.py 146 django.request http_method_not_allowed 6579 Method Not Allowed (GET): /logout/
+WARNING 2024-06-06 07:36:02,353 django.request Thread-3 (process_request_thread) 139937425061440 log log.py 241 django.request log_response 6579 Method Not Allowed: /logout/
+WARNING 2024-06-06 07:36:02,354 django.server Thread-3 (process_request_thread) 139937425061440 basehttp basehttp.py 212 django.server log_message 6579 "GET /logout/ HTTP/1.1" 405 0
+INFO 2024-06-06 07:36:22,367 django.server Thread-5 (process_request_thread) 139937213052480 basehttp basehttp.py 212 django.server log_message 6579 "GET / HTTP/1.1" 302 0
+INFO 2024-06-06 07:36:22,374 django.server Thread-5 (process_request_thread) 139937213052480 basehttp basehttp.py 212 django.server log_message 6579 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2024-06-06 07:36:22,383 django.server Thread-6 (process_request_thread) 139937204659776 basehttp basehttp.py 212 django.server log_message 6579 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2024-06-06 07:36:26,024 django.request Thread-6 (process_request_thread) 139937204659776 log log.py 241 django.request log_response 6579 Not Found: /favicon.ico
+WARNING 2024-06-06 07:36:26,024 django.server Thread-6 (process_request_thread) 139937204659776 basehttp basehttp.py 212 django.server log_message 6579 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2024-07-01 06:37:35,804 django.utils.autoreload MainThread 140093545103360 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 18996 Watching for file changes with StatReloader
+INFO 2024-07-01 06:39:34,581 django.server Thread-1 (process_request_thread) 140093491717696 basehttp basehttp.py 212 django.server log_message 18996 "GET / HTTP/1.1" 302 0
+INFO 2024-07-01 06:39:34,645 django.server Thread-1 (process_request_thread) 140093491717696 basehttp basehttp.py 212 django.server log_message 18996 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2024-07-01 06:39:34,746 django.server Thread-2 (process_request_thread) 140093491717696 basehttp basehttp.py 212 django.server log_message 18996 "GET /login/?next=/ HTTP/1.1" 200 17183
+WARNING 2024-07-01 06:39:36,386 django.request Thread-2 (process_request_thread) 140093491717696 log log.py 241 django.request log_response 18996 Not Found: /favicon.ico
+WARNING 2024-07-01 06:39:36,386 django.server Thread-2 (process_request_thread) 140093491717696 basehttp basehttp.py 212 django.server log_message 18996 "GET /favicon.ico HTTP/1.1" 404 5058
+INFO 2024-07-01 06:53:19,664 django.utils.autoreload MainThread 139624359825408 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 26819 Watching for file changes with StatReloader
+INFO 2024-07-01 06:58:03,114 django.utils.autoreload MainThread 140415435997184 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 28571 Watching for file changes with StatReloader
+INFO 2024-07-01 07:24:27,308 django.utils.autoreload MainThread 140077884956672 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 38876 Watching for file changes with StatReloader
+INFO 2024-07-01 07:24:38,266 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET / HTTP/1.1" 302 0
+INFO 2024-07-01 07:24:38,341 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET /login/?next=/ HTTP/1.1" 200 17183
+INFO 2024-07-01 07:24:53,282 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "POST /login/?next=/ HTTP/1.1" 302 0
+INFO 2024-07-01 07:24:56,380 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET / HTTP/1.1" 200 30047
+INFO 2024-07-01 07:25:14,708 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET /client/create/ HTTP/1.1" 200 4757
+INFO 2024-07-01 07:25:48,340 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "POST /client/create/ HTTP/1.1" 302 0
+INFO 2024-07-01 07:25:51,466 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET / HTTP/1.1" 200 18326
+INFO 2024-07-01 07:25:59,183 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET /agents/ HTTP/1.1" 200 10460
+INFO 2024-07-01 07:26:04,521 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET /agents/create_agent/ HTTP/1.1" 200 5595
+INFO 2024-07-01 07:26:47,068 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "POST /agents/create_agent/ HTTP/1.1" 302 0
+INFO 2024-07-01 07:26:50,685 django.server Thread-1 (process_request_thread) 140077831571008 basehttp basehttp.py 212 django.server log_message 38876 "GET /agents/ HTTP/1.1" 200 12809
