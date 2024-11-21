@@ -4369,3 +4369,219 @@ WARNING 2024-11-21 09:40:21,169 django.request Thread-4 (process_request_thread)
 WARNING 2024-11-21 09:40:21,170 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /logout/ HTTP/1.1" 405 0
 WARNING 2024-11-21 09:40:32,797 django.request Thread-4 (process_request_thread) 140183234147904 log log.py 241 django.request log_response 116967 Not Found: /{% static 'vendors/flowbite.min.js' % }
 WARNING 2024-11-21 09:40:32,798 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+WARNING 2024-11-21 10:23:12,317 django.request Thread-1 (process_request_thread) 139877622478400 log log.py 241 django.request log_response 143859 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 10:23:12,319 django.server Thread-1 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18862
+WARNING 2024-11-21 11:39:13,765 django.request Thread-5 (process_request_thread) 139877597300288 log log.py 241 django.request log_response 143859 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 11:39:13,767 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18862
+WARNING 2024-11-21 11:40:41,939 django.request Thread-5 (process_request_thread) 139877597300288 log log.py 241 django.request log_response 143859 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 11:40:41,940 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+WARNING 2024-11-21 11:41:35,855 django.request Thread-8 (process_request_thread) 139877614085696 base base.py 146 django.request http_method_not_allowed 143859 Method Not Allowed (GET): /logout/
+WARNING 2024-11-21 11:41:37,935 django.request Thread-8 (process_request_thread) 139877614085696 log log.py 241 django.request log_response 143859 Method Not Allowed: /logout/
+WARNING 2024-11-21 11:41:37,935 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /logout/ HTTP/1.1" 405 0
+WARNING 2024-11-21 11:41:51,306 django.request Thread-8 (process_request_thread) 139877614085696 log log.py 241 django.request log_response 143859 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 11:41:51,306 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+ERROR 2024-11-21 11:49:25,547 django.request Thread-5 (process_request_thread) 139877597300288 log log.py 241 django.request log_response 143859 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/cursor.py", line 723, in execute
+    raise ex.with_traceback(None)
+psycopg.OperationalError: consuming input failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 134, in debug_sql
+    yield
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/cursor.py", line 723, in execute
+    raise ex.with_traceback(None)
+django.db.utils.OperationalError: consuming input failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 330, in create_cursor
+    cursor = self.connection.cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 840, in cursor
+    self._check_connection_ok()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 479, in _check_connection_ok
+    raise e.OperationalError("the connection is closed")
+psycopg.OperationalError: the connection is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 160, in _record
+    return method(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 121, in execute
+    with self.debug_sql(sql, params, use_last_executed_query=True):
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 139, in debug_sql
+    sql = self.db.ops.last_executed_query(self.cursor, sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/operations.py", line 302, in last_executed_query
+    return self.compose_sql(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/operations.py", line 195, in compose_sql
+    return mogrify(sql, params, self.connection)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/psycopg_any.py", line 21, in mogrify
+    with connection.cursor() as cursor:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 59, in cursor
+    cursor = connection._djdt_cursor(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 316, in cursor
+    return self._cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 293, in _cursor
+    with self.wrap_database_errors:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 330, in create_cursor
+    cursor = self.connection.cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 840, in cursor
+    self._check_connection_ok()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 479, in _check_connection_ok
+    raise e.OperationalError("the connection is closed")
+django.db.utils.OperationalError: the connection is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 330, in create_cursor
+    cursor = self.connection.cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 840, in cursor
+    self._check_connection_ok()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 479, in _check_connection_ok
+    raise e.OperationalError("the connection is closed")
+psycopg.OperationalError: the connection is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 324, in render
+    if match:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/models/query.py", line 412, in __bool__
+    self._fetch_all()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 183, in _record
+    "sql": self._last_executed_query(sql, params),
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 145, in _last_executed_query
+    return self.db.ops.last_executed_query(self.cursor, sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/operations.py", line 302, in last_executed_query
+    return self.compose_sql(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/operations.py", line 195, in compose_sql
+    return mogrify(sql, params, self.connection)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/psycopg_any.py", line 21, in mogrify
+    with connection.cursor() as cursor:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 59, in cursor
+    cursor = connection._djdt_cursor(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 316, in cursor
+    return self._cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 293, in _cursor
+    with self.wrap_database_errors:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 330, in create_cursor
+    cursor = self.connection.cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 840, in cursor
+    self._check_connection_ok()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 479, in _check_connection_ok
+    raise e.OperationalError("the connection is closed")
+django.db.utils.OperationalError: the connection is closed
+WARNING 2024-11-21 12:21:07,255 django.request Thread-2 (process_request_thread) 140418023999040 log log.py 241 django.request log_response 208549 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:21:07,257 django.server Thread-2 (process_request_thread) 140418023999040 basehttp basehttp.py 212 django.server log_message 208549 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+WARNING 2024-11-21 12:24:29,354 django.request Thread-1 (process_request_thread) 140203728909888 log log.py 241 django.request log_response 210898 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:24:29,355 django.server Thread-1 (process_request_thread) 140203728909888 basehttp basehttp.py 212 django.server log_message 210898 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5298
+WARNING 2024-11-21 12:27:09,417 django.request Thread-2 (process_request_thread) 140544058865216 log log.py 241 django.request log_response 212554 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:27:09,417 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18861
+WARNING 2024-11-21 12:27:57,926 django.request Thread-2 (process_request_thread) 140544058865216 log log.py 241 django.request log_response 212554 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:27:57,926 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 19265
+WARNING 2024-11-21 12:30:28,842 django.request Thread-9 (process_request_thread) 140544050472512 log log.py 241 django.request log_response 212554 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:30:28,843 django.server Thread-9 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18883
+WARNING 2024-11-21 12:55:23,038 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "POST /login/?next=/ HTTP/1.1" 403 16425
+WARNING 2024-11-21 12:55:39,480 django.request Thread-17 (process_request_thread) 140544058865216 log log.py 241 django.request log_response 212554 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:55:39,481 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 19265

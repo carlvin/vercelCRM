@@ -7956,3 +7956,319 @@ WARNING 2024-11-21 09:40:32,798 django.server Thread-4 (process_request_thread) 
 INFO 2024-11-21 09:40:33,052 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
 INFO 2024-11-21 09:40:33,126 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
 INFO 2024-11-21 09:40:37,952 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /__debug__/render_panel/?store_id=02d2ceb0bf474018b5f8c5d2de72d6be&panel_id=TimerPanel HTTP/1.1" 200 120
+INFO 2024-11-21 10:22:48,790 django.utils.autoreload MainThread 139877748727808 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 143859 Watching for file changes with StatReloader
+INFO 2024-11-21 10:23:10,457 django.server Thread-1 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET / HTTP/1.1" 200 43785
+INFO 2024-11-21 10:23:10,506 django.server Thread-3 (process_request_thread) 139877605692992 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-11-21 10:23:10,520 django.server Thread-2 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 200 294111
+INFO 2024-11-21 10:23:10,520 django.server Thread-4 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+WARNING 2024-11-21 10:23:12,317 django.request Thread-1 (process_request_thread) 139877622478400 log log.py 241 django.request log_response 143859 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 10:23:12,319 django.server Thread-1 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18862
+INFO 2024-11-21 10:23:12,557 django.server Thread-1 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 10:23:12,609 django.server Thread-1 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 10:23:18,605 django.server Thread-1 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET /__debug__/render_panel/?store_id=a8535465747347a7bad0981b5e54d588&panel_id=SQLPanel HTTP/1.1" 200 120
+INFO 2024-11-21 11:39:10,390 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET / HTTP/1.1" 200 43846
+INFO 2024-11-21 11:39:10,440 django.server Thread-7 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-11-21 11:39:10,449 django.server Thread-6 (process_request_thread) 139877605692992 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 304 0
+INFO 2024-11-21 11:39:10,454 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+WARNING 2024-11-21 11:39:13,765 django.request Thread-5 (process_request_thread) 139877597300288 log log.py 241 django.request log_response 143859 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 11:39:13,767 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18862
+INFO 2024-11-21 11:39:13,931 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 11:39:13,969 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 11:39:16,061 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /__debug__/render_panel/?store_id=ca76d1b1b6cf4543a7d33212ec202c05&panel_id=SQLPanel HTTP/1.1" 200 120
+INFO 2024-11-21 11:39:17,891 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /__debug__/render_panel/?store_id=ca76d1b1b6cf4543a7d33212ec202c05&panel_id=StaticFilesPanel HTTP/1.1" 200 120
+INFO 2024-11-21 11:40:39,108 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET / HTTP/1.1" 200 43845
+INFO 2024-11-21 11:40:39,170 django.server Thread-7 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-11-21 11:40:39,185 django.server Thread-6 (process_request_thread) 139877605692992 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-11-21 11:40:39,186 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 304 0
+WARNING 2024-11-21 11:40:41,939 django.request Thread-5 (process_request_thread) 139877597300288 log log.py 241 django.request log_response 143859 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 11:40:41,940 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+INFO 2024-11-21 11:40:42,109 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 11:40:42,156 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 11:40:44,433 django.server Thread-5 (process_request_thread) 139877597300288 basehttp basehttp.py 212 django.server log_message 143859 "GET /__debug__/render_panel/?store_id=a41f0443805a4dfea96fdf100c252f99&panel_id=TimerPanel HTTP/1.1" 200 120
+WARNING 2024-11-21 11:41:35,855 django.request Thread-8 (process_request_thread) 139877614085696 base base.py 146 django.request http_method_not_allowed 143859 Method Not Allowed (GET): /logout/
+WARNING 2024-11-21 11:41:37,935 django.request Thread-8 (process_request_thread) 139877614085696 log log.py 241 django.request log_response 143859 Method Not Allowed: /logout/
+WARNING 2024-11-21 11:41:37,935 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /logout/ HTTP/1.1" 405 0
+INFO 2024-11-21 11:41:49,143 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET / HTTP/1.1" 200 43786
+INFO 2024-11-21 11:41:49,217 django.server Thread-7 (process_request_thread) 139877622478400 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-11-21 11:41:49,225 django.server Thread-6 (process_request_thread) 139877605692992 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 304 0
+INFO 2024-11-21 11:41:49,226 django.server Thread-9 (process_request_thread) 139877587859008 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+WARNING 2024-11-21 11:41:51,306 django.request Thread-8 (process_request_thread) 139877614085696 log log.py 241 django.request log_response 143859 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 11:41:51,306 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+INFO 2024-11-21 11:41:51,507 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 11:41:51,562 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 11:42:01,081 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /__debug__/render_panel/?store_id=f54b8c3f3b5b45c6baee9e7bc8bd49d4&panel_id=TemplatesPanel HTTP/1.1" 200 120
+INFO 2024-11-21 11:42:26,601 django.server Thread-8 (process_request_thread) 139877614085696 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 11:42:26,604 django.server Thread-9 (process_request_thread) 139877587859008 basehttp basehttp.py 212 django.server log_message 143859 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+ERROR 2024-11-21 11:49:25,547 django.request Thread-5 (process_request_thread) 139877597300288 log log.py 241 django.request log_response 143859 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/cursor.py", line 723, in execute
+    raise ex.with_traceback(None)
+psycopg.OperationalError: consuming input failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 134, in debug_sql
+    yield
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/cursor.py", line 723, in execute
+    raise ex.with_traceback(None)
+django.db.utils.OperationalError: consuming input failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 330, in create_cursor
+    cursor = self.connection.cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 840, in cursor
+    self._check_connection_ok()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 479, in _check_connection_ok
+    raise e.OperationalError("the connection is closed")
+psycopg.OperationalError: the connection is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 160, in _record
+    return method(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 121, in execute
+    with self.debug_sql(sql, params, use_last_executed_query=True):
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 139, in debug_sql
+    sql = self.db.ops.last_executed_query(self.cursor, sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/operations.py", line 302, in last_executed_query
+    return self.compose_sql(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/operations.py", line 195, in compose_sql
+    return mogrify(sql, params, self.connection)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/psycopg_any.py", line 21, in mogrify
+    with connection.cursor() as cursor:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 59, in cursor
+    cursor = connection._djdt_cursor(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 316, in cursor
+    return self._cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 293, in _cursor
+    with self.wrap_database_errors:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 330, in create_cursor
+    cursor = self.connection.cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 840, in cursor
+    self._check_connection_ok()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 479, in _check_connection_ok
+    raise e.OperationalError("the connection is closed")
+django.db.utils.OperationalError: the connection is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 330, in create_cursor
+    cursor = self.connection.cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 840, in cursor
+    self._check_connection_ok()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 479, in _check_connection_ok
+    raise e.OperationalError("the connection is closed")
+psycopg.OperationalError: the connection is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 324, in render
+    if match:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/models/query.py", line 412, in __bool__
+    self._fetch_all()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 183, in _record
+    "sql": self._last_executed_query(sql, params),
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 145, in _last_executed_query
+    return self.db.ops.last_executed_query(self.cursor, sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/operations.py", line 302, in last_executed_query
+    return self.compose_sql(sql, params)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/operations.py", line 195, in compose_sql
+    return mogrify(sql, params, self.connection)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/psycopg_any.py", line 21, in mogrify
+    with connection.cursor() as cursor:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 59, in cursor
+    cursor = connection._djdt_cursor(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 316, in cursor
+    return self._cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 293, in _cursor
+    with self.wrap_database_errors:
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 294, in _cursor
+    return self._prepare_cursor(self.create_cursor(name))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 330, in create_cursor
+    cursor = self.connection.cursor()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 840, in cursor
+    self._check_connection_ok()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/psycopg/connection.py", line 479, in _check_connection_ok
+    raise e.OperationalError("the connection is closed")
+django.db.utils.OperationalError: the connection is closed
+INFO 2024-11-21 12:20:11,468 django.utils.autoreload MainThread 139877748727808 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 143859 /home/xorb/Projects/carl/docker_django/simple-crm-app/config/urls.py changed, reloading.
+INFO 2024-11-21 12:20:11,997 django.utils.autoreload MainThread 140418087911424 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 208549 Watching for file changes with StatReloader
+INFO 2024-11-21 12:21:03,320 django.server Thread-1 (process_request_thread) 140418032391744 basehttp basehttp.py 212 django.server log_message 208549 "GET / HTTP/1.1" 200 43787
+INFO 2024-11-21 12:21:03,458 django.server Thread-1 (process_request_thread) 140418032391744 basehttp basehttp.py 212 django.server log_message 208549 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 304 0
+INFO 2024-11-21 12:21:03,463 django.server Thread-3 (process_request_thread) 140418013509184 basehttp basehttp.py 212 django.server log_message 208549 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:21:03,468 django.server Thread-4 (process_request_thread) 140418005116480 basehttp basehttp.py 212 django.server log_message 208549 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+WARNING 2024-11-21 12:21:07,255 django.request Thread-2 (process_request_thread) 140418023999040 log log.py 241 django.request log_response 208549 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:21:07,257 django.server Thread-2 (process_request_thread) 140418023999040 basehttp basehttp.py 212 django.server log_message 208549 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+INFO 2024-11-21 12:21:07,406 django.server Thread-2 (process_request_thread) 140418023999040 basehttp basehttp.py 212 django.server log_message 208549 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:21:07,457 django.server Thread-2 (process_request_thread) 140418023999040 basehttp basehttp.py 212 django.server log_message 208549 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:21:10,571 django.server Thread-2 (process_request_thread) 140418023999040 basehttp basehttp.py 212 django.server log_message 208549 "GET /__debug__/render_panel/?store_id=12b64df4b6b14962ba1c8120cec65f74&panel_id=RequestPanel HTTP/1.1" 200 120
+INFO 2024-11-21 12:21:11,987 django.server Thread-2 (process_request_thread) 140418023999040 basehttp basehttp.py 212 django.server log_message 208549 "GET /__debug__/render_panel/?store_id=12b64df4b6b14962ba1c8120cec65f74&panel_id=SQLPanel HTTP/1.1" 200 120
+INFO 2024-11-21 12:24:06,671 django.utils.autoreload MainThread 140418087911424 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 208549 /home/xorb/Projects/carl/docker_django/simple-crm-app/config/settings/dev_neon.py changed, reloading.
+INFO 2024-11-21 12:24:07,220 django.utils.autoreload MainThread 140203784429568 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 210898 Watching for file changes with StatReloader
+INFO 2024-11-21 12:24:29,338 django.server Thread-1 (process_request_thread) 140203728909888 basehttp basehttp.py 212 django.server log_message 210898 "GET / HTTP/1.1" 200 30260
+INFO 2024-11-21 12:24:29,350 django.server Thread-2 (process_request_thread) 140203719468608 basehttp basehttp.py 212 django.server log_message 210898 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 304 0
+WARNING 2024-11-21 12:24:29,354 django.request Thread-1 (process_request_thread) 140203728909888 log log.py 241 django.request log_response 210898 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:24:29,355 django.server Thread-1 (process_request_thread) 140203728909888 basehttp basehttp.py 212 django.server log_message 210898 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5298
+INFO 2024-11-21 12:26:04,157 django.utils.autoreload MainThread 140203784429568 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 210898 /home/xorb/Projects/carl/docker_django/simple-crm-app/config/settings/dev_neon.py changed, reloading.
+INFO 2024-11-21 12:26:04,414 django.utils.autoreload MainThread 140044819353600 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 212142 Watching for file changes with StatReloader
+INFO 2024-11-21 12:26:41,773 django.utils.autoreload MainThread 140044819353600 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 212142 /home/xorb/Projects/carl/docker_django/simple-crm-app/config/settings/dev_neon.py changed, reloading.
+INFO 2024-11-21 12:26:42,061 django.utils.autoreload MainThread 140544122777600 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 212554 Watching for file changes with StatReloader
+INFO 2024-11-21 12:27:07,440 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET / HTTP/1.1" 200 43786
+INFO 2024-11-21 12:27:07,500 django.server Thread-4 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:27:07,508 django.server Thread-3 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 304 0
+INFO 2024-11-21 12:27:07,509 django.server Thread-5 (process_request_thread) 140544038934080 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+WARNING 2024-11-21 12:27:09,417 django.request Thread-2 (process_request_thread) 140544058865216 log log.py 241 django.request log_response 212554 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:27:09,417 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18861
+INFO 2024-11-21 12:27:09,571 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:27:09,601 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:27:27,253 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=9c2efdbf66914b8fb0ba5df963b8cc21&panel_id=SQLPanel HTTP/1.1" 200 52508
+INFO 2024-11-21 12:27:53,911 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET / HTTP/1.1" 200 44188
+INFO 2024-11-21 12:27:54,000 django.server Thread-3 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:27:54,012 django.server Thread-5 (process_request_thread) 140544038934080 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 304 0
+INFO 2024-11-21 12:27:54,012 django.server Thread-4 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+WARNING 2024-11-21 12:27:57,926 django.request Thread-2 (process_request_thread) 140544058865216 log log.py 241 django.request log_response 212554 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:27:57,926 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 19265
+INFO 2024-11-21 12:27:58,081 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:27:58,111 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:28:21,400 django.server Thread-2 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=b2e599108fc24c3ba2434541a282829c&panel_id=RequestPanel HTTP/1.1" 200 2135
+INFO 2024-11-21 12:30:28,728 django.server Thread-6 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET / HTTP/1.1" 302 0
+INFO 2024-11-21 12:30:28,745 django.server Thread-6 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /login?next=/ HTTP/1.1" 301 0
+INFO 2024-11-21 12:30:28,772 django.server Thread-7 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /login/?next=/ HTTP/1.1" 200 30941
+INFO 2024-11-21 12:30:28,835 django.server Thread-10 (process_request_thread) 140544038934080 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-11-21 12:30:28,837 django.server Thread-7 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/vendors/flowbite.min.css HTTP/1.1" 200 150765
+WARNING 2024-11-21 12:30:28,842 django.request Thread-9 (process_request_thread) 140544050472512 log log.py 241 django.request log_response 212554 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:30:28,843 django.server Thread-9 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18883
+INFO 2024-11-21 12:30:28,844 django.server Thread-8 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 200 294111
+INFO 2024-11-21 12:30:29,084 django.server Thread-8 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16675
+INFO 2024-11-21 12:30:31,913 django.server Thread-8 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-11-21 12:30:31,979 django.server Thread-8 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+INFO 2024-11-21 12:30:35,583 django.server Thread-8 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=760005bfba52413393f43df2665789cf&panel_id=TimerPanel HTTP/1.1" 200 1375
+INFO 2024-11-21 12:30:35,606 django.server Thread-8 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3686
+INFO 2024-11-21 12:37:25,041 django.server Thread-11 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=760005bfba52413393f43df2665789cf&panel_id=StaticFilesPanel HTTP/1.1" 200 35713
+INFO 2024-11-21 12:38:22,869 django.server Thread-11 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=760005bfba52413393f43df2665789cf&panel_id=SignalsPanel HTTP/1.1" 200 2332
+INFO 2024-11-21 12:38:35,683 django.server Thread-11 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=760005bfba52413393f43df2665789cf&panel_id=HistoryPanel HTTP/1.1" 200 40159
+INFO 2024-11-21 12:38:35,714 django.server Thread-11 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-11-21 12:39:08,601 django.server Thread-11 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=760005bfba52413393f43df2665789cf&panel_id=VersionsPanel HTTP/1.1" 200 858
+INFO 2024-11-21 12:53:48,100 django.server Thread-13 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "POST /login/?next=/ HTTP/1.1" 200 14428
+INFO 2024-11-21 12:53:48,171 django.server Thread-15 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:53:48,185 django.server Thread-16 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:53:48,189 django.server Thread-14 (process_request_thread) 140544038934080 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2024-11-21 12:53:48,258 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:53:48,264 django.server Thread-16 (process_request_thread) 140544050472512 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:54:31,167 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=8251af5292d44e2c80ea22e87205cd19&panel_id=RequestPanel HTTP/1.1" 200 3000
+INFO 2024-11-21 12:54:53,376 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /__debug__/render_panel/?store_id=8251af5292d44e2c80ea22e87205cd19&panel_id=TimerPanel HTTP/1.1" 200 1380
+INFO 2024-11-21 12:54:53,390 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 304 0
+WARNING 2024-11-21 12:55:20,893 django.security.csrf Thread-17 (process_request_thread) 140544058865216 log log.py 241 django.security.csrf log_response 212554 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2024-11-21 12:55:23,038 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "POST /login/?next=/ HTTP/1.1" 403 16425
+INFO 2024-11-21 12:55:23,075 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:55:23,083 django.server Thread-14 (process_request_thread) 140544038934080 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:55:23,090 django.server Thread-15 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:55:23,130 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:55:36,740 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET / HTTP/1.1" 200 44188
+INFO 2024-11-21 12:55:36,817 django.server Thread-18 (process_request_thread) 140543673759296 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-11-21 12:55:36,823 django.server Thread-15 (process_request_thread) 140544067257920 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/vendors/flowbite.min.js.map HTTP/1.1" 304 0
+INFO 2024-11-21 12:55:36,829 django.server Thread-14 (process_request_thread) 140544038934080 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+WARNING 2024-11-21 12:55:39,480 django.request Thread-17 (process_request_thread) 140544058865216 log log.py 241 django.request log_response 212554 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 12:55:39,481 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 19265
+INFO 2024-11-21 12:55:39,689 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-11-21 12:55:39,723 django.server Thread-17 (process_request_thread) 140544058865216 basehttp basehttp.py 212 django.server log_message 212554 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0

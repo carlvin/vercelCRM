@@ -66,14 +66,14 @@ if DEBUG:
         'debug_toolbar.middleware.DebugToolbarMiddleware',
     ] + MIDDLEWARE
     
-    DEBUG_TOOLBAR_CONFIG = {
-        'SHOW_TOOLBAR_CALLBACK': show_toolbar,
-        'INSERT_BEFORE': '</body>',
-        'SHOW_TEMPLATE_CONTEXT': True,
-        'ENABLE_STACKTRACES': True,
-        'RESULTS_CACHE_SIZE': 3,
-        'SHOW_COLLAPSED': True,
-    }
+    # DEBUG_TOOLBAR_CONFIG = {
+    #     'SHOW_TOOLBAR_CALLBACK': show_toolbar,
+    #     'INSERT_BEFORE': '</body>',
+    #     'SHOW_TEMPLATE_CONTEXT': True,
+    #     'ENABLE_STACKTRACES': True,
+    #     'RESULTS_CACHE_SIZE': 3,
+    #     'SHOW_COLLAPSED': True,
+    # }
     
     INTERNAL_IPS = [
         '127.0.0.1',

@@ -34,14 +34,14 @@ urlpatterns = [
 
 # Debug configuration
 if settings.DEBUG:
-    try:
+    # try:
         # Debug Toolbar URLs - Add these first
-        import debug_toolbar
-        urlpatterns = [
-            path('__debug__/', include(debug_toolbar.urls)),
-        ] + urlpatterns
-    except ImportError:
-        pass
+    import debug_toolbar
+    urlpatterns = [
+        path('__debug__/', include(debug_toolbar.urls)),
+    ] + urlpatterns
+    # except ImportError:
+    #     pass
     
     # Static and Media URLs - Add these last
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
