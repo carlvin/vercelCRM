@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "simple-crm-app/config/wsgi.py",
+        "src": "/simple-crm-app/config/wsgi.py",
         "use": "@vercel/python",
         "config": {
           "maxLambdaSize": "15mb",
@@ -24,7 +24,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "simple-crm-app/config/wsgi.py"
+        "dest": "/simple-crm-app/config/wsgi.py"
       }
     ]
   }

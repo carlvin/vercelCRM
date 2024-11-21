@@ -3678,3 +3678,694 @@ WARNING 2024-06-06 07:36:26,024 django.request Thread-6 (process_request_thread)
 WARNING 2024-06-06 07:36:26,024 django.server Thread-6 (process_request_thread) 139937204659776 basehttp basehttp.py 212 django.server log_message 6579 "GET /favicon.ico HTTP/1.1" 404 5058
 WARNING 2024-07-01 06:39:36,386 django.request Thread-2 (process_request_thread) 140093491717696 log log.py 241 django.request log_response 18996 Not Found: /favicon.ico
 WARNING 2024-07-01 06:39:36,386 django.server Thread-2 (process_request_thread) 140093491717696 basehttp basehttp.py 212 django.server log_message 18996 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-07-03 09:57:59,881 django.request Thread-1 (process_request_thread) 139864579040832 log log.py 241 django.request log_response 18440 Not Found: /favicon.ico
+WARNING 2024-07-03 09:57:59,882 django.server Thread-1 (process_request_thread) 139864579040832 basehttp basehttp.py 212 django.server log_message 18440 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-11-06 16:36:45,432 django.request Thread-2 (process_request_thread) 139899552380480 log log.py 241 django.request log_response 27526 Not Found: /favicon.ico
+WARNING 2024-11-06 16:36:45,434 django.server Thread-2 (process_request_thread) 139899552380480 basehttp basehttp.py 212 django.server log_message 27526 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-11-06 16:49:24,832 django.server Thread-5 (process_request_thread) 139650741196352 basehttp basehttp.py 212 django.server log_message 28374 "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2517
+WARNING 2024-11-06 16:49:39,501 django.server Thread-5 (process_request_thread) 139650741196352 basehttp basehttp.py 212 django.server log_message 28374 "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2517
+WARNING 2024-11-08 17:25:39,131 django.request Thread-2 (process_request_thread) 140621215917632 log log.py 241 django.request log_response 62362 Not Found: /favicon.ico
+WARNING 2024-11-08 17:25:39,132 django.server Thread-2 (process_request_thread) 140621215917632 basehttp basehttp.py 212 django.server log_message 62362 "GET /favicon.ico HTTP/1.1" 404 5058
+ERROR 2024-11-08 17:47:31,081 django.request Thread-1 (process_request_thread) 140661743187520 log log.py 241 django.request log_response 74076 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static'. Did you forget to register or load this tag?
+ERROR 2024-11-08 17:47:31,083 django.server Thread-1 (process_request_thread) 140661743187520 basehttp basehttp.py 212 django.server log_message 74076 "GET /login/?next=/ HTTP/1.1" 500 182954
+WARNING 2024-11-08 17:49:18,870 django.request Thread-1 (process_request_thread) 140661743187520 log log.py 241 django.request log_response 74076 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-08 17:49:18,871 django.server Thread-1 (process_request_thread) 140661743187520 basehttp basehttp.py 212 django.server log_message 74076 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-08 17:49:21,249 django.request Thread-1 (process_request_thread) 140661743187520 log log.py 241 django.request log_response 74076 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-08 17:49:21,250 django.server Thread-1 (process_request_thread) 140661743187520 basehttp basehttp.py 212 django.server log_message 74076 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-08 17:54:32,172 django.request Thread-5 (process_request_thread) 140661734794816 log log.py 241 django.request log_response 74076 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-08 17:54:32,193 django.server Thread-5 (process_request_thread) 140661734794816 basehttp basehttp.py 212 django.server log_message 74076 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-08 17:56:34,969 django.request Thread-5 (process_request_thread) 140661734794816 log log.py 241 django.request log_response 74076 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-08 17:56:34,969 django.server Thread-5 (process_request_thread) 140661734794816 basehttp basehttp.py 212 django.server log_message 74076 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-08 17:56:36,824 django.request Thread-5 (process_request_thread) 140661734794816 log log.py 241 django.request log_response 74076 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-08 17:56:36,825 django.server Thread-5 (process_request_thread) 140661734794816 basehttp basehttp.py 212 django.server log_message 74076 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-16 09:48:18,057 django.request Thread-1 (process_request_thread) 140194500601408 log log.py 241 django.request log_response 43366 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-16 09:48:18,058 django.server Thread-1 (process_request_thread) 140194500601408 basehttp basehttp.py 212 django.server log_message 43366 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-16 09:48:18,494 django.request Thread-1 (process_request_thread) 140194500601408 log log.py 241 django.request log_response 43366 Not Found: /favicon.ico
+WARNING 2024-11-16 09:48:18,494 django.server Thread-1 (process_request_thread) 140194500601408 basehttp basehttp.py 212 django.server log_message 43366 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-11-19 12:58:58,737 django.request Thread-1 (process_request_thread) 140164886345280 log log.py 241 django.request log_response 7874 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 12:58:58,738 django.server Thread-1 (process_request_thread) 140164886345280 basehttp basehttp.py 212 django.server log_message 7874 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 12:58:58,911 django.request Thread-1 (process_request_thread) 140164886345280 log log.py 241 django.request log_response 7874 Not Found: /favicon.ico
+WARNING 2024-11-19 12:58:58,913 django.server Thread-1 (process_request_thread) 140164886345280 basehttp basehttp.py 212 django.server log_message 7874 "GET /favicon.ico HTTP/1.1" 404 5058
+WARNING 2024-11-19 13:08:56,452 django.request Thread-4 (process_request_thread) 140164886345280 log log.py 241 django.request log_response 7874 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:08:56,453 django.server Thread-4 (process_request_thread) 140164886345280 basehttp basehttp.py 212 django.server log_message 7874 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 13:09:00,122 django.request Thread-4 (process_request_thread) 140164886345280 log log.py 241 django.request log_response 7874 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:09:00,124 django.server Thread-4 (process_request_thread) 140164886345280 basehttp basehttp.py 212 django.server log_message 7874 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 13:22:42,588 django.request Thread-7 (process_request_thread) 140164868511296 log log.py 241 django.request log_response 7874 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:22:42,589 django.server Thread-7 (process_request_thread) 140164868511296 basehttp basehttp.py 212 django.server log_message 7874 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 13:22:44,432 django.request Thread-7 (process_request_thread) 140164868511296 log log.py 241 django.request log_response 7874 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:22:44,432 django.server Thread-7 (process_request_thread) 140164868511296 basehttp basehttp.py 212 django.server log_message 7874 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 13:36:30,770 django.request Thread-3 (process_request_thread) 139935586702912 log log.py 241 django.request log_response 26391 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:36:30,771 django.server Thread-3 (process_request_thread) 139935586702912 basehttp basehttp.py 212 django.server log_message 26391 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 13:36:34,881 django.request Thread-3 (process_request_thread) 139935586702912 log log.py 241 django.request log_response 26391 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:36:34,882 django.server Thread-3 (process_request_thread) 139935586702912 basehttp basehttp.py 212 django.server log_message 26391 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 13:36:36,102 django.request Thread-3 (process_request_thread) 139935586702912 log log.py 241 django.request log_response 26391 Not Found: /signup/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:36:36,104 django.server Thread-3 (process_request_thread) 139935586702912 basehttp basehttp.py 212 django.server log_message 26391 "GET /signup/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5209
+WARNING 2024-11-19 13:37:02,804 django.request Thread-3 (process_request_thread) 139935586702912 log log.py 241 django.request log_response 26391 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:37:02,805 django.server Thread-3 (process_request_thread) 139935586702912 basehttp basehttp.py 212 django.server log_message 26391 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 13:37:09,545 django.request Thread-3 (process_request_thread) 139935586702912 log log.py 241 django.request log_response 26391 Not Found: /signup/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:37:09,546 django.server Thread-3 (process_request_thread) 139935586702912 basehttp basehttp.py 212 django.server log_message 26391 "GET /signup/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5209
+WARNING 2024-11-19 13:37:12,570 django.request Thread-3 (process_request_thread) 139935586702912 log log.py 241 django.request log_response 26391 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:37:12,570 django.server Thread-3 (process_request_thread) 139935586702912 basehttp basehttp.py 212 django.server log_message 26391 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 13:37:14,320 django.request Thread-3 (process_request_thread) 139935586702912 log log.py 241 django.request log_response 26391 Not Found: /reset-password/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 13:37:14,327 django.server Thread-3 (process_request_thread) 139935586702912 basehttp basehttp.py 212 django.server log_message 26391 "GET /reset-password/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5233
+ERROR 2024-11-19 13:37:29,900 django.request Thread-5 (process_request_thread) 139935569917504 log log.py 241 django.request log_response 26391 Internal Server Error: /reset-password/
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 227, in dispatch
+    return super().dispatch(*args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 240, in form_valid
+    form.save(**opts)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/forms.py", line 376, in save
+    self.send_mail(
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/contrib/auth/forms.py", line 317, in send_mail
+    email_message.send()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 85, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+ERROR 2024-11-19 13:37:29,901 django.server Thread-5 (process_request_thread) 139935569917504 basehttp basehttp.py 212 django.server log_message 26391 "POST /reset-password/ HTTP/1.1" 500 160443
+WARNING 2024-11-19 20:03:05,777 django.request Thread-3 (process_request_thread) 140064277624384 log log.py 241 django.request log_response 24914 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 20:03:05,779 django.server Thread-3 (process_request_thread) 140064277624384 basehttp basehttp.py 212 django.server log_message 24914 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 5206
+WARNING 2024-11-19 20:03:06,357 django.request Thread-1 (process_request_thread) 140064286017088 log log.py 241 django.request log_response 24914 Not Found: /favicon.ico
+WARNING 2024-11-19 20:03:06,358 django.server Thread-1 (process_request_thread) 140064286017088 basehttp basehttp.py 212 django.server log_message 24914 "GET /favicon.ico HTTP/1.1" 404 5058
+ERROR 2024-11-19 21:38:38,893 django.request Thread-1 (process_request_thread) 139903508006464 log log.py 241 django.request log_response 75994 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/middleware.py", line 97, in __call__
+    rendered = toolbar.render_toolbar()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/debug_toolbar/toolbar.py", line 84, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 325, in render
+    return nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2024-11-19 21:38:38,895 django.server Thread-1 (process_request_thread) 139903508006464 basehttp basehttp.py 212 django.server log_message 75994 "GET / HTTP/1.1" 500 148060
+ERROR 2024-11-19 21:55:57,989 django.server Thread-3 (process_request_thread) 139921127224896 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:55:57,996 django.server Thread-4 (process_request_thread) 139921127224896 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:56:25,655 django.server Thread-5 (process_request_thread) 139921127224896 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:56:25,658 django.server Thread-6 (process_request_thread) 139921127224896 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:56:33,303 django.server Thread-8 (process_request_thread) 139920907695680 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:56:33,308 django.server Thread-9 (process_request_thread) 139920907695680 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:57:25,011 django.server Thread-10 (process_request_thread) 139921118832192 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:57:25,026 django.server Thread-11 (process_request_thread) 139921118832192 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:57:25,053 django.server Thread-12 (process_request_thread) 139921118832192 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 21:57:25,057 django.server Thread-13 (process_request_thread) 139921118832192 basehttp basehttp.py 192 django.server log_message 84788 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:05:01,861 django.server Thread-2 (process_request_thread) 140011160725056 basehttp basehttp.py 192 django.server log_message 90254 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:05:01,870 django.server Thread-3 (process_request_thread) 140011160725056 basehttp basehttp.py 192 django.server log_message 90254 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:07:56,475 django.server Thread-2 (process_request_thread) 139851882858048 basehttp basehttp.py 192 django.server log_message 91659 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:07:56,480 django.server Thread-3 (process_request_thread) 139851882858048 basehttp basehttp.py 192 django.server log_message 91659 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:10:20,731 django.server Thread-2 (process_request_thread) 139871754466880 basehttp basehttp.py 192 django.server log_message 92732 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:10:20,732 django.server Thread-3 (process_request_thread) 139871746074176 basehttp basehttp.py 192 django.server log_message 92732 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:10:20,763 django.server Thread-4 (process_request_thread) 139871746074176 basehttp basehttp.py 192 django.server log_message 92732 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:10:20,766 django.server Thread-5 (process_request_thread) 139871746074176 basehttp basehttp.py 192 django.server log_message 92732 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:10:30,225 django.server Thread-6 (process_request_thread) 139871746074176 basehttp basehttp.py 192 django.server log_message 92732 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:10:30,229 django.server Thread-7 (process_request_thread) 139871746074176 basehttp basehttp.py 192 django.server log_message 92732 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:11:07,635 django.server Thread-2 (process_request_thread) 140212953814592 basehttp basehttp.py 192 django.server log_message 93280 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:11:07,640 django.server Thread-3 (process_request_thread) 140212953814592 basehttp basehttp.py 192 django.server log_message 93280 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:12:28,152 django.server Thread-2 (process_request_thread) 140302648239680 basehttp basehttp.py 192 django.server log_message 94002 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-19 22:12:28,161 django.server Thread-4 (process_request_thread) 140302648239680 basehttp basehttp.py 192 django.server log_message 94002 You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2024-11-19 22:13:57,560 django.request Thread-6 (process_request_thread) 140302656632384 log log.py 241 django.request log_response 94002 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 22:13:57,572 django.server Thread-6 (process_request_thread) 140302656632384 basehttp basehttp.py 212 django.server log_message 94002 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18886
+WARNING 2024-11-19 22:14:44,539 django.request Thread-3 (process_request_thread) 139944127362624 log log.py 241 django.request log_response 94933 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 22:14:44,544 django.server Thread-3 (process_request_thread) 139944127362624 basehttp basehttp.py 212 django.server log_message 94933 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18886
+WARNING 2024-11-19 22:15:11,578 django.request Thread-2 (process_request_thread) 139944118969920 log log.py 241 django.request log_response 94933 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 22:15:11,580 django.server Thread-2 (process_request_thread) 139944118969920 basehttp basehttp.py 212 django.server log_message 94933 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18886
+ERROR 2024-11-19 22:19:41,240 django.request Thread-1 (process_request_thread) 140627072517696 log log.py 241 django.request log_response 97734 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:19:41,304 django.server Thread-1 (process_request_thread) 140627072517696 basehttp basehttp.py 212 django.server log_message 97734 "GET / HTTP/1.1" 500 111339
+ERROR 2024-11-19 22:20:30,416 django.request Thread-3 (process_request_thread) 140627052586560 log log.py 241 django.request log_response 97734 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:20:30,464 django.server Thread-3 (process_request_thread) 140627052586560 basehttp basehttp.py 212 django.server log_message 97734 "GET / HTTP/1.1" 500 111339
+ERROR 2024-11-19 22:27:32,787 django.request Thread-4 (process_request_thread) 140627052586560 log log.py 241 django.request log_response 97734 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:27:32,835 django.server Thread-4 (process_request_thread) 140627052586560 basehttp basehttp.py 212 django.server log_message 97734 "GET / HTTP/1.1" 500 111340
+ERROR 2024-11-19 22:28:05,154 django.request Thread-1 (process_request_thread) 140422976501312 log log.py 241 django.request log_response 102285 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:28:05,219 django.server Thread-1 (process_request_thread) 140422976501312 basehttp basehttp.py 212 django.server log_message 102285 "GET / HTTP/1.1" 500 111038
+ERROR 2024-11-19 22:29:09,549 django.request Thread-1 (process_request_thread) 140393498482240 log log.py 241 django.request log_response 102801 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:29:09,619 django.server Thread-1 (process_request_thread) 140393498482240 basehttp basehttp.py 212 django.server log_message 102801 "GET / HTTP/1.1" 500 111175
+ERROR 2024-11-19 22:29:15,593 django.request Thread-1 (process_request_thread) 140393498482240 log log.py 241 django.request log_response 102801 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:29:15,623 django.server Thread-1 (process_request_thread) 140393498482240 basehttp basehttp.py 212 django.server log_message 102801 "GET / HTTP/1.1" 500 111175
+ERROR 2024-11-19 22:31:26,878 django.request Thread-1 (process_request_thread) 139666565101120 log log.py 241 django.request log_response 104067 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:31:26,936 django.server Thread-1 (process_request_thread) 139666565101120 basehttp basehttp.py 212 django.server log_message 104067 "GET / HTTP/1.1" 500 111200
+ERROR 2024-11-19 22:31:57,464 django.request Thread-1 (process_request_thread) 140108802889280 log log.py 241 django.request log_response 104332 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:31:57,530 django.server Thread-1 (process_request_thread) 140108802889280 basehttp basehttp.py 212 django.server log_message 104332 "GET / HTTP/1.1" 500 111038
+WARNING 2024-11-19 22:33:48,447 django.request Thread-3 (process_request_thread) 140108794496576 log log.py 241 django.request log_response 104332 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 22:33:48,447 django.server Thread-3 (process_request_thread) 140108794496576 basehttp basehttp.py 212 django.server log_message 104332 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18887
+ERROR 2024-11-19 22:34:16,942 django.request Thread-3 (process_request_thread) 140108794496576 log log.py 241 django.request log_response 104332 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:34:16,981 django.server Thread-3 (process_request_thread) 140108794496576 basehttp basehttp.py 212 django.server log_message 104332 "GET / HTTP/1.1" 500 111353
+WARNING 2024-11-19 22:35:07,004 django.request Thread-3 (process_request_thread) 140108794496576 log log.py 241 django.request log_response 104332 Not Found: /agents/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-19 22:35:07,030 django.server Thread-3 (process_request_thread) 140108794496576 basehttp basehttp.py 212 django.server log_message 104332 "GET /agents/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 19731
+ERROR 2024-11-19 22:35:07,931 django.request Thread-1 (process_request_thread) 140108802889280 log log.py 241 django.request log_response 104332 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-19 22:35:07,978 django.server Thread-1 (process_request_thread) 140108802889280 basehttp basehttp.py 212 django.server log_message 104332 "GET / HTTP/1.1" 500 111038
+ERROR 2024-11-20 13:23:37,322 django.server Thread-2 (process_request_thread) 140157490046528 basehttp basehttp.py 192 django.server log_message 6224 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:23:37,337 django.server Thread-5 (process_request_thread) 140157490046528 basehttp basehttp.py 192 django.server log_message 6224 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:26:00,449 django.server Thread-2 (process_request_thread) 140637604927040 basehttp basehttp.py 192 django.server log_message 7506 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:26:00,453 django.server Thread-3 (process_request_thread) 140637604927040 basehttp basehttp.py 192 django.server log_message 7506 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:28:57,922 django.server Thread-1 (process_request_thread) 140719301850688 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:28:57,929 django.server Thread-2 (process_request_thread) 140719301850688 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:28:57,938 django.server Thread-3 (process_request_thread) 140719301850688 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:28:57,942 django.server Thread-4 (process_request_thread) 140719301850688 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:28:57,945 django.server Thread-5 (process_request_thread) 140719301850688 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:28:57,951 django.server Thread-7 (process_request_thread) 140719301850688 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:29:05,631 django.server Thread-8 (process_request_thread) 140719301850688 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:29:05,637 django.server Thread-9 (process_request_thread) 140719301850688 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:29:17,726 django.server Thread-11 (process_request_thread) 140719285065280 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:29:17,730 django.server Thread-12 (process_request_thread) 140719285065280 basehttp basehttp.py 192 django.server log_message 9006 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:29:56,531 django.server Thread-2 (process_request_thread) 139896255018560 basehttp basehttp.py 192 django.server log_message 9522 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 13:29:56,541 django.server Thread-3 (process_request_thread) 139896255018560 basehttp basehttp.py 192 django.server log_message 9522 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:54:59,007 django.server Thread-3 (process_request_thread) 140125514229312 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:54:59,026 django.server Thread-4 (process_request_thread) 140125514229312 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:55:59,075 django.server Thread-5 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:55:59,200 django.server Thread-7 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:55:59,202 django.server Thread-8 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:55:59,230 django.server Thread-9 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:56:14,736 django.server Thread-10 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:56:14,746 django.server Thread-11 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:56:14,768 django.server Thread-12 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:56:14,777 django.server Thread-13 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:56:14,777 django.server Thread-14 (process_request_thread) 140125514229312 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:56:14,781 django.server Thread-15 (process_request_thread) 140125514229312 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2024-11-20 18:56:31,520 django.request Thread-16 (process_request_thread) 140125514229312 log log.py 241 django.request log_response 9973 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-20 18:56:31,522 django.server Thread-16 (process_request_thread) 140125514229312 basehttp basehttp.py 212 django.server log_message 9973 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 19290
+WARNING 2024-11-20 18:56:34,217 django.request Thread-16 (process_request_thread) 140125514229312 log log.py 241 django.request log_response 9973 Not Found: /favicon.ico
+WARNING 2024-11-20 18:56:34,218 django.server Thread-16 (process_request_thread) 140125514229312 basehttp basehttp.py 212 django.server log_message 9973 "GET /favicon.ico HTTP/1.1" 404 19082
+WARNING 2024-11-20 18:56:55,276 django.request Thread-17 (process_request_thread) 140125522622016 log log.py 241 django.request log_response 9973 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-20 18:56:55,277 django.server Thread-17 (process_request_thread) 140125522622016 basehttp basehttp.py 212 django.server log_message 9973 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 19290
+ERROR 2024-11-20 18:58:02,651 django.server Thread-19 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 18:58:02,697 django.server Thread-20 (process_request_thread) 140125522622016 basehttp basehttp.py 192 django.server log_message 9973 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 19:01:44,974 django.server Thread-2 (process_request_thread) 140329122522688 basehttp basehttp.py 192 django.server log_message 13803 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-11-20 19:01:44,980 django.server Thread-3 (process_request_thread) 140329122522688 basehttp basehttp.py 192 django.server log_message 13803 You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2024-11-21 06:48:41,638 django.request Thread-2 (process_request_thread) 139810659849792 log log.py 241 django.request log_response 22647 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 06:48:41,644 django.server Thread-2 (process_request_thread) 139810659849792 basehttp basehttp.py 212 django.server log_message 22647 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18884
+WARNING 2024-11-21 06:48:42,426 django.request Thread-3 (process_request_thread) 139810669291072 log log.py 241 django.request log_response 22647 Not Found: /favicon.ico
+WARNING 2024-11-21 06:48:42,427 django.server Thread-3 (process_request_thread) 139810669291072 basehttp basehttp.py 212 django.server log_message 22647 "GET /favicon.ico HTTP/1.1" 404 18676
+ERROR 2024-11-21 06:49:21,005 django.request Thread-3 (process_request_thread) 139810669291072 log log.py 241 django.request log_response 22647 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-21 06:49:21,038 django.server Thread-3 (process_request_thread) 139810669291072 basehttp basehttp.py 212 django.server log_message 22647 "GET / HTTP/1.1" 500 111037
+ERROR 2024-11-21 08:09:22,326 django.request Thread-1 (process_request_thread) 140155048425024 log log.py 241 django.request log_response 69603 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-21 08:09:22,418 django.server Thread-1 (process_request_thread) 140155048425024 basehttp basehttp.py 212 django.server log_message 69603 "GET / HTTP/1.1" 500 110737
+WARNING 2024-11-21 08:09:49,598 django.request Thread-5 (process_request_thread) 140155019052608 log log.py 241 django.request log_response 69603 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 08:09:49,602 django.server Thread-5 (process_request_thread) 140155019052608 basehttp basehttp.py 212 django.server log_message 69603 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18886
+WARNING 2024-11-21 08:10:33,149 django.request Thread-5 (process_request_thread) 140545445996096 log log.py 241 django.request log_response 70363 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 08:10:33,151 django.server Thread-5 (process_request_thread) 140545445996096 basehttp basehttp.py 212 django.server log_message 70363 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18886
+ERROR 2024-11-21 08:11:07,073 django.request Thread-5 (process_request_thread) 140545445996096 log log.py 241 django.request log_response 70363 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-21 08:11:07,110 django.server Thread-5 (process_request_thread) 140545445996096 basehttp basehttp.py 212 django.server log_message 70363 "GET / HTTP/1.1" 500 111049
+ERROR 2024-11-21 08:11:25,718 django.request Thread-5 (process_request_thread) 140545445996096 log log.py 241 django.request log_response 70363 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-21 08:11:25,767 django.server Thread-5 (process_request_thread) 140545445996096 basehttp basehttp.py 212 django.server log_message 70363 "GET / HTTP/1.1" 500 111051
+WARNING 2024-11-21 08:12:36,465 django.request Thread-5 (process_request_thread) 140545445996096 base base.py 146 django.request http_method_not_allowed 70363 Method Not Allowed (GET): /logout/
+WARNING 2024-11-21 08:12:38,227 django.request Thread-5 (process_request_thread) 140545445996096 log log.py 241 django.request log_response 70363 Method Not Allowed: /logout/
+WARNING 2024-11-21 08:12:38,227 django.server Thread-5 (process_request_thread) 140545445996096 basehttp basehttp.py 212 django.server log_message 70363 "GET /logout/ HTTP/1.1" 405 0
+WARNING 2024-11-21 08:12:44,385 django.request Thread-5 (process_request_thread) 140545445996096 base base.py 146 django.request http_method_not_allowed 70363 Method Not Allowed (GET): /logout/
+WARNING 2024-11-21 08:12:47,071 django.request Thread-5 (process_request_thread) 140545445996096 log log.py 241 django.request log_response 70363 Method Not Allowed: /logout/
+WARNING 2024-11-21 08:12:47,072 django.server Thread-5 (process_request_thread) 140545445996096 basehttp basehttp.py 212 django.server log_message 70363 "GET /logout/ HTTP/1.1" 405 0
+ERROR 2024-11-21 08:14:06,427 django.request Thread-1 (process_request_thread) 140545481664064 log log.py 241 django.request log_response 70363 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, client_relationship_manager/client_list.html
+ERROR 2024-11-21 08:14:06,462 django.server Thread-1 (process_request_thread) 140545481664064 basehttp basehttp.py 212 django.server log_message 70363 "GET / HTTP/1.1" 500 110737
+ERROR 2024-11-21 08:39:36,516 django.request Thread-1 (process_request_thread) 140362694657600 log log.py 241 django.request log_response 86615 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    raise TemplateSyntaxError(error_msg)
+django.template.exceptions.TemplateSyntaxError: Invalid template name in 'extends' tag: ''. Got this from the 'base_template' variable.
+ERROR 2024-11-21 08:39:36,605 django.server Thread-1 (process_request_thread) 140362694657600 basehttp basehttp.py 212 django.server log_message 86615 "GET / HTTP/1.1" 500 132246
+WARNING 2024-11-21 08:40:17,664 django.request Thread-1 (process_request_thread) 140362694657600 log log.py 241 django.request log_response 86615 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 08:40:17,665 django.server Thread-1 (process_request_thread) 140362694657600 basehttp basehttp.py 212 django.server log_message 86615 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18887
+ERROR 2024-11-21 09:09:24,212 django.request Thread-1 (process_request_thread) 139858334672448 log log.py 241 django.request log_response 102805 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    raise TemplateSyntaxError(error_msg)
+django.template.exceptions.TemplateSyntaxError: Invalid template name in 'extends' tag: ''. Got this from the 'base_template' variable.
+ERROR 2024-11-21 09:09:24,324 django.server Thread-1 (process_request_thread) 139858334672448 basehttp basehttp.py 212 django.server log_message 102805 "GET / HTTP/1.1" 500 132109
+ERROR 2024-11-21 09:13:21,110 django.request Thread-1 (process_request_thread) 139858334672448 log log.py 241 django.request log_response 102805 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    raise TemplateSyntaxError(error_msg)
+django.template.exceptions.TemplateSyntaxError: Invalid template name in 'extends' tag: ''. Got this from the 'base_template' variable.
+ERROR 2024-11-21 09:13:21,183 django.server Thread-1 (process_request_thread) 139858334672448 basehttp basehttp.py 212 django.server log_message 102805 "GET / HTTP/1.1" 500 132246
+ERROR 2024-11-21 09:16:34,235 django.request Thread-1 (process_request_thread) 140492858082880 log log.py 241 django.request log_response 106747 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    raise TemplateSyntaxError(error_msg)
+django.template.exceptions.TemplateSyntaxError: Invalid template name in 'extends' tag: ''. Got this from the 'base_template' variable.
+ERROR 2024-11-21 09:16:37,028 django.request Thread-2 (process_request_thread) 140492848641600 log log.py 241 django.request log_response 106747 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    raise TemplateSyntaxError(error_msg)
+django.template.exceptions.TemplateSyntaxError: Invalid template name in 'extends' tag: ''. Got this from the 'base_template' variable.
+ERROR 2024-11-21 09:16:37,093 django.server Thread-2 (process_request_thread) 140492848641600 basehttp basehttp.py 212 django.server log_message 106747 "GET / HTTP/1.1" 500 132295
+ERROR 2024-11-21 09:33:39,782 django.request Thread-1 (process_request_thread) 140583607727680 log log.py 241 django.request log_response 115745 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+  File "/home/xorb/Projects/docker_django/simple-crm-app/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: crm/crm/index.html
+ERROR 2024-11-21 09:33:39,898 django.server Thread-1 (process_request_thread) 140583607727680 basehttp basehttp.py 212 django.server log_message 115745 "GET / HTTP/1.1" 500 106112
+WARNING 2024-11-21 09:34:40,464 django.request Thread-1 (process_request_thread) 140480364938816 log log.py 241 django.request log_response 116386 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 09:34:40,467 django.server Thread-1 (process_request_thread) 140480364938816 basehttp basehttp.py 212 django.server log_message 116386 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+WARNING 2024-11-21 09:35:35,208 django.request Thread-1 (process_request_thread) 140183456106048 base base.py 146 django.request http_method_not_allowed 116967 Method Not Allowed (GET): /logout/
+WARNING 2024-11-21 09:35:38,429 django.request Thread-1 (process_request_thread) 140183456106048 log log.py 241 django.request log_response 116967 Method Not Allowed: /logout/
+WARNING 2024-11-21 09:35:38,430 django.server Thread-1 (process_request_thread) 140183456106048 basehttp basehttp.py 212 django.server log_message 116967 "GET /logout/ HTTP/1.1" 405 0
+WARNING 2024-11-21 09:35:57,072 django.request Thread-3 (process_request_thread) 140183456106048 log log.py 241 django.request log_response 116967 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 09:35:57,074 django.server Thread-3 (process_request_thread) 140183456106048 basehttp basehttp.py 212 django.server log_message 116967 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18884
+WARNING 2024-11-21 09:36:05,223 django.request Thread-5 (process_request_thread) 140183225755200 log log.py 241 django.request log_response 116967 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 09:36:05,228 django.server Thread-5 (process_request_thread) 140183225755200 basehttp basehttp.py 212 django.server log_message 116967 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18886
+WARNING 2024-11-21 09:36:11,950 django.request Thread-4 (process_request_thread) 140183234147904 log log.py 241 django.request log_response 116967 Not Found: /login/{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 09:36:11,951 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /login/%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18886
+WARNING 2024-11-21 09:36:33,598 django.request Thread-4 (process_request_thread) 140183234147904 log log.py 241 django.request log_response 116967 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 09:36:33,600 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863
+WARNING 2024-11-21 09:40:17,716 django.request Thread-4 (process_request_thread) 140183234147904 base base.py 146 django.request http_method_not_allowed 116967 Method Not Allowed (GET): /logout/
+WARNING 2024-11-21 09:40:21,169 django.request Thread-4 (process_request_thread) 140183234147904 log log.py 241 django.request log_response 116967 Method Not Allowed: /logout/
+WARNING 2024-11-21 09:40:21,170 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /logout/ HTTP/1.1" 405 0
+WARNING 2024-11-21 09:40:32,797 django.request Thread-4 (process_request_thread) 140183234147904 log log.py 241 django.request log_response 116967 Not Found: /{% static 'vendors/flowbite.min.js' % }
+WARNING 2024-11-21 09:40:32,798 django.server Thread-4 (process_request_thread) 140183234147904 basehttp basehttp.py 212 django.server log_message 116967 "GET /%7B%%20static%20'vendors/flowbite.min.js'%20%%20%7D HTTP/1.1" 404 18863

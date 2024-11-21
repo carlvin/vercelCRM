@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  {% load static %}
 <head>
   <title>{% block title %}Simple Crm {% endblock title %}</title>
   <meta charset="UTF-8">
@@ -11,11 +11,13 @@
 
   {% endblock meta %}
   <!-- css  -->
+  <script href = "{% static 'vendors/flowbite.min.css' %} " rel="stylesheet"> </script>
   {% block css %}
 
   {% endblock css %}
   <!-- js  -->
-  {% load static %}
+ <script src =" {% static 'vendors/flowbite.min.js' % }"> </script>
+ <script src =" {% static 'vendors/flowbite.min.js.map' %}"> </script>
  <script src="https://cdn.ckeditor.com/ckeditor5/39.0.2/balloon-block/ckeditor.js"></script>{% comment %} <script type="text/javascript" src="{% static "ckeditor/ckeditor-init.js" %}"></script> {% endcomment %}
 {% comment %} <script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script> {% endcomment %}
 
